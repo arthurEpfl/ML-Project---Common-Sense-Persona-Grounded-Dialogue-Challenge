@@ -1,0 +1,2572 @@
+[
+  {
+    "turn_0": {
+      "persona A": [
+        "my name is anne.",
+        "i'm 38 years old.",
+        "i have 2 daughters.",
+        "i am a doctor who specializes in dermatology.",
+        "my character trait: skilled with dexterity.",
+        "i got a Ph.D. in the past.",
+        "i studied hard in the past.",
+        "i intend to cure dermatitis in the future.",
+        "i regularly or consistently attends seminars.",
+        "i regularly or consistently teaches students to become a compassionate doctor.",
+        "i am a mother that likes to cook",
+        "my character trait: likes to learn new recipes.",
+        "i took cooking lessons in the past.",
+        "i intend to teach my daughters how to cook in the future.",
+        "i intend to start a cooking club with my neighbors in the future.",
+        "i regularly or consistently looks for new recipes on the internet.",
+        "i regularly or consistently watches food channel."
+      ],
+      "persona B": [
+        "my name is david.",
+        "i'm 42 years old.",
+        "i recently bought a house.",
+        "i am an architect who likes to build tall buildings.",
+        "my character trait: good at drawing.",
+        "my character trait: creative designer.",
+        "i received an award for good design in the past.",
+        "i built a safe skyscraper in the past.",
+        "i intend to build the tallest building in the world in the future.",
+        "i regularly or consistently goes to construction sites.",
+        "I am a demanding person that always needs to achieve high goals.",
+        "my character trait: does not give up.",
+        "my character trait: high achiever.",
+        "i went to an ivy league college in the past.",
+        "i graduated cum laude from Harvard in the past.",
+        "i intend to become CEO in the future.",
+        "i intend to own my own business in the future.",
+        "i regularly or consistently goes to work early.",
+        "i regularly or consistently works overtime."
+      ],
+      "dialogue": [
+        {
+          "persona_id": "A",
+          "text": "Oh, what a long queue! I need to arrive at the seminar in 30 minutes but there's not much hope now... you seem to be in a rush too, are you alright?"
+        }
+      ],
+      "gold_reference": "Oh hi! I am OK but I'm in a bit of a rush too actually. I have a meeting in an hour and I wanted to arrive early so that I could rehearse my presentation again. I'm David by the way. What kind of seminar are you attending?"
+    },
+    "turn_1": {
+      "persona A": [
+        "my name is anne.",
+        "i'm 38 years old.",
+        "i have 2 daughters.",
+        "i am a doctor who specializes in dermatology.",
+        "my character trait: skilled with dexterity.",
+        "i got a Ph.D. in the past.",
+        "i studied hard in the past.",
+        "i intend to cure dermatitis in the future.",
+        "i regularly or consistently attends seminars.",
+        "i regularly or consistently teaches students to become a compassionate doctor.",
+        "i am a mother that likes to cook",
+        "my character trait: likes to learn new recipes.",
+        "i took cooking lessons in the past.",
+        "i intend to teach my daughters how to cook in the future.",
+        "i intend to start a cooking club with my neighbors in the future.",
+        "i regularly or consistently looks for new recipes on the internet.",
+        "i regularly or consistently watches food channel."
+      ],
+      "persona B": [
+        "my name is david.",
+        "i'm 42 years old.",
+        "i recently bought a house.",
+        "i am an architect who likes to build tall buildings.",
+        "my character trait: good at drawing.",
+        "my character trait: creative designer.",
+        "i received an award for good design in the past.",
+        "i built a safe skyscraper in the past.",
+        "i intend to build the tallest building in the world in the future.",
+        "i regularly or consistently goes to construction sites.",
+        "I am a demanding person that always needs to achieve high goals.",
+        "my character trait: does not give up.",
+        "my character trait: high achiever.",
+        "i went to an ivy league college in the past.",
+        "i graduated cum laude from Harvard in the past.",
+        "i intend to become CEO in the future.",
+        "i intend to own my own business in the future.",
+        "i regularly or consistently goes to work early.",
+        "i regularly or consistently works overtime."
+      ],
+      "dialogue": [
+        {
+          "persona_id": "A",
+          "text": "Oh, what a long queue! I need to arrive at the seminar in 30 minutes but there's not much hope now... you seem to be in a rush too, are you alright?"
+        },
+        {
+          "persona_id": "B",
+          "text": "Oh hi! I am OK but I'm in a bit of a rush too actually. I have a meeting in an hour and I wanted to arrive early so that I could rehearse my presentation again. I'm David by the way. What kind of seminar are you attending?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Hi David, I'm Anne. I'm attending a dermatology seminar as a practitioner in the field. Oh no, it seems like you have an important role in the meeting that you can't be missing. May I ask what you do?"
+        }
+      ],
+      "gold_reference": "Nice to meet you Anne. So are you a dermatologist? Many of my friends from Harvard are doctors. I am an architect. The meeting today is to propose my new design to our client so I can't mess it up!"
+    },
+    "turn_2": {
+      "persona A": [
+        "my name is anne.",
+        "i'm 38 years old.",
+        "i have 2 daughters.",
+        "i am a doctor who specializes in dermatology.",
+        "my character trait: skilled with dexterity.",
+        "i got a Ph.D. in the past.",
+        "i studied hard in the past.",
+        "i intend to cure dermatitis in the future.",
+        "i regularly or consistently attends seminars.",
+        "i regularly or consistently teaches students to become a compassionate doctor.",
+        "i am a mother that likes to cook",
+        "my character trait: likes to learn new recipes.",
+        "i took cooking lessons in the past.",
+        "i intend to teach my daughters how to cook in the future.",
+        "i intend to start a cooking club with my neighbors in the future.",
+        "i regularly or consistently looks for new recipes on the internet.",
+        "i regularly or consistently watches food channel."
+      ],
+      "persona B": [
+        "my name is david.",
+        "i'm 42 years old.",
+        "i recently bought a house.",
+        "i am an architect who likes to build tall buildings.",
+        "my character trait: good at drawing.",
+        "my character trait: creative designer.",
+        "i received an award for good design in the past.",
+        "i built a safe skyscraper in the past.",
+        "i intend to build the tallest building in the world in the future.",
+        "i regularly or consistently goes to construction sites.",
+        "I am a demanding person that always needs to achieve high goals.",
+        "my character trait: does not give up.",
+        "my character trait: high achiever.",
+        "i went to an ivy league college in the past.",
+        "i graduated cum laude from Harvard in the past.",
+        "i intend to become CEO in the future.",
+        "i intend to own my own business in the future.",
+        "i regularly or consistently goes to work early.",
+        "i regularly or consistently works overtime."
+      ],
+      "dialogue": [
+        {
+          "persona_id": "A",
+          "text": "Oh, what a long queue! I need to arrive at the seminar in 30 minutes but there's not much hope now... you seem to be in a rush too, are you alright?"
+        },
+        {
+          "persona_id": "B",
+          "text": "Oh hi! I am OK but I'm in a bit of a rush too actually. I have a meeting in an hour and I wanted to arrive early so that I could rehearse my presentation again. I'm David by the way. What kind of seminar are you attending?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Hi David, I'm Anne. I'm attending a dermatology seminar as a practitioner in the field. Oh no, it seems like you have an important role in the meeting that you can't be missing. May I ask what you do?"
+        },
+        {
+          "persona_id": "B",
+          "text": "Nice to meet you Anne. So are you a dermatologist? Many of my friends from Harvard are doctors. I am an architect. The meeting today is to propose my new design to our client so I can't mess it up!"
+        },
+        {
+          "persona_id": "A",
+          "text": "Yes, I'm a dermatologist. Actually, I've been recently going to Harvard to teach the students...what a coincidence! I have to tell you, the students there are great with so much potential. They just have it all so I'm sure that you must be a great architect too. What kind of architecture do you design?"
+        }
+      ],
+      "gold_reference": "Yes what a coincidence! Yeah at Harvard you really have to study hard to keep up with others but I actually enjoyed the challenge. You must be the type to work hard too since you are a doctor, am I correct? I specialize in tall buildings, you know, those high-rise constructions."
+    },
+    "turn_3": {
+      "persona A": [
+        "my name is anne.",
+        "i'm 38 years old.",
+        "i have 2 daughters.",
+        "i am a doctor who specializes in dermatology.",
+        "my character trait: skilled with dexterity.",
+        "i got a Ph.D. in the past.",
+        "i studied hard in the past.",
+        "i intend to cure dermatitis in the future.",
+        "i regularly or consistently attends seminars.",
+        "i regularly or consistently teaches students to become a compassionate doctor.",
+        "i am a mother that likes to cook",
+        "my character trait: likes to learn new recipes.",
+        "i took cooking lessons in the past.",
+        "i intend to teach my daughters how to cook in the future.",
+        "i intend to start a cooking club with my neighbors in the future.",
+        "i regularly or consistently looks for new recipes on the internet.",
+        "i regularly or consistently watches food channel."
+      ],
+      "persona B": [
+        "my name is david.",
+        "i'm 42 years old.",
+        "i recently bought a house.",
+        "i am an architect who likes to build tall buildings.",
+        "my character trait: good at drawing.",
+        "my character trait: creative designer.",
+        "i received an award for good design in the past.",
+        "i built a safe skyscraper in the past.",
+        "i intend to build the tallest building in the world in the future.",
+        "i regularly or consistently goes to construction sites.",
+        "I am a demanding person that always needs to achieve high goals.",
+        "my character trait: does not give up.",
+        "my character trait: high achiever.",
+        "i went to an ivy league college in the past.",
+        "i graduated cum laude from Harvard in the past.",
+        "i intend to become CEO in the future.",
+        "i intend to own my own business in the future.",
+        "i regularly or consistently goes to work early.",
+        "i regularly or consistently works overtime."
+      ],
+      "dialogue": [
+        {
+          "persona_id": "A",
+          "text": "Oh, what a long queue! I need to arrive at the seminar in 30 minutes but there's not much hope now... you seem to be in a rush too, are you alright?"
+        },
+        {
+          "persona_id": "B",
+          "text": "Oh hi! I am OK but I'm in a bit of a rush too actually. I have a meeting in an hour and I wanted to arrive early so that I could rehearse my presentation again. I'm David by the way. What kind of seminar are you attending?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Hi David, I'm Anne. I'm attending a dermatology seminar as a practitioner in the field. Oh no, it seems like you have an important role in the meeting that you can't be missing. May I ask what you do?"
+        },
+        {
+          "persona_id": "B",
+          "text": "Nice to meet you Anne. So are you a dermatologist? Many of my friends from Harvard are doctors. I am an architect. The meeting today is to propose my new design to our client so I can't mess it up!"
+        },
+        {
+          "persona_id": "A",
+          "text": "Yes, I'm a dermatologist. Actually, I've been recently going to Harvard to teach the students...what a coincidence! I have to tell you, the students there are great with so much potential. They just have it all so I'm sure that you must be a great architect too. What kind of architecture do you design?"
+        },
+        {
+          "persona_id": "B",
+          "text": "Yes what a coincidence! Yeah at Harvard you really have to study hard to keep up with others but I actually enjoyed the challenge. You must be the type to work hard too since you are a doctor, am I correct? I specialize in tall buildings, you know, those high-rise constructions."
+        },
+        {
+          "persona_id": "A",
+          "text": "Yes, it did require a lot of effort, especially after moving on to getting a phD. It was worth it though. Building high-rise constructions from scratch must require a great deal of challenge... but I can see how you enjoy taking the risks!"
+        }
+      ],
+      "gold_reference": "Oh I bet. There are many types of doctors but why did you choose dermatology if I may ask? I'm hoping to start my own architectural firm so I've been working hard to make our clients happy and hopefully they will be my client for my future firm."
+    },
+    "turn_4": {
+      "persona A": [
+        "my name is anne.",
+        "i'm 38 years old.",
+        "i have 2 daughters.",
+        "i am a doctor who specializes in dermatology.",
+        "my character trait: skilled with dexterity.",
+        "i got a Ph.D. in the past.",
+        "i studied hard in the past.",
+        "i intend to cure dermatitis in the future.",
+        "i regularly or consistently attends seminars.",
+        "i regularly or consistently teaches students to become a compassionate doctor.",
+        "i am a mother that likes to cook",
+        "my character trait: likes to learn new recipes.",
+        "i took cooking lessons in the past.",
+        "i intend to teach my daughters how to cook in the future.",
+        "i intend to start a cooking club with my neighbors in the future.",
+        "i regularly or consistently looks for new recipes on the internet.",
+        "i regularly or consistently watches food channel."
+      ],
+      "persona B": [
+        "my name is david.",
+        "i'm 42 years old.",
+        "i recently bought a house.",
+        "i am an architect who likes to build tall buildings.",
+        "my character trait: good at drawing.",
+        "my character trait: creative designer.",
+        "i received an award for good design in the past.",
+        "i built a safe skyscraper in the past.",
+        "i intend to build the tallest building in the world in the future.",
+        "i regularly or consistently goes to construction sites.",
+        "I am a demanding person that always needs to achieve high goals.",
+        "my character trait: does not give up.",
+        "my character trait: high achiever.",
+        "i went to an ivy league college in the past.",
+        "i graduated cum laude from Harvard in the past.",
+        "i intend to become CEO in the future.",
+        "i intend to own my own business in the future.",
+        "i regularly or consistently goes to work early.",
+        "i regularly or consistently works overtime."
+      ],
+      "dialogue": [
+        {
+          "persona_id": "A",
+          "text": "Oh, what a long queue! I need to arrive at the seminar in 30 minutes but there's not much hope now... you seem to be in a rush too, are you alright?"
+        },
+        {
+          "persona_id": "B",
+          "text": "Oh hi! I am OK but I'm in a bit of a rush too actually. I have a meeting in an hour and I wanted to arrive early so that I could rehearse my presentation again. I'm David by the way. What kind of seminar are you attending?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Hi David, I'm Anne. I'm attending a dermatology seminar as a practitioner in the field. Oh no, it seems like you have an important role in the meeting that you can't be missing. May I ask what you do?"
+        },
+        {
+          "persona_id": "B",
+          "text": "Nice to meet you Anne. So are you a dermatologist? Many of my friends from Harvard are doctors. I am an architect. The meeting today is to propose my new design to our client so I can't mess it up!"
+        },
+        {
+          "persona_id": "A",
+          "text": "Yes, I'm a dermatologist. Actually, I've been recently going to Harvard to teach the students...what a coincidence! I have to tell you, the students there are great with so much potential. They just have it all so I'm sure that you must be a great architect too. What kind of architecture do you design?"
+        },
+        {
+          "persona_id": "B",
+          "text": "Yes what a coincidence! Yeah at Harvard you really have to study hard to keep up with others but I actually enjoyed the challenge. You must be the type to work hard too since you are a doctor, am I correct? I specialize in tall buildings, you know, those high-rise constructions."
+        },
+        {
+          "persona_id": "A",
+          "text": "Yes, it did require a lot of effort, especially after moving on to getting a phD. It was worth it though. Building high-rise constructions from scratch must require a great deal of challenge... but I can see how you enjoy taking the risks!"
+        },
+        {
+          "persona_id": "B",
+          "text": "Oh I bet. There are many types of doctors but why did you choose dermatology if I may ask? I'm hoping to start my own architectural firm so I've been working hard to make our clients happy and hopefully they will be my client for my future firm."
+        },
+        {
+          "persona_id": "A",
+          "text": "I've always been skillful with detail works using my hands and also as I had a twin brother who had really bad skin problems, I wanted to help him. That's my story. How about you, why did you become an architect? How exciting to be able to have your own firm!"
+        }
+      ],
+      "gold_reference": "That's another thing we have in common- I've always been good at detailed work and drawing. When I was a kid my dad took me to New York and I was blown away by the skyscrapers. I told myself that one day I am going to build a building that is taller than any of them. So that's my story. Your brother is lucky to have you!"
+    },
+    "turn_5": {
+      "persona A": [
+        "my name is anne.",
+        "i'm 38 years old.",
+        "i have 2 daughters.",
+        "i am a doctor who specializes in dermatology.",
+        "my character trait: skilled with dexterity.",
+        "i got a Ph.D. in the past.",
+        "i studied hard in the past.",
+        "i intend to cure dermatitis in the future.",
+        "i regularly or consistently attends seminars.",
+        "i regularly or consistently teaches students to become a compassionate doctor.",
+        "i am a mother that likes to cook",
+        "my character trait: likes to learn new recipes.",
+        "i took cooking lessons in the past.",
+        "i intend to teach my daughters how to cook in the future.",
+        "i intend to start a cooking club with my neighbors in the future.",
+        "i regularly or consistently looks for new recipes on the internet.",
+        "i regularly or consistently watches food channel."
+      ],
+      "persona B": [
+        "my name is david.",
+        "i'm 42 years old.",
+        "i recently bought a house.",
+        "i am an architect who likes to build tall buildings.",
+        "my character trait: good at drawing.",
+        "my character trait: creative designer.",
+        "i received an award for good design in the past.",
+        "i built a safe skyscraper in the past.",
+        "i intend to build the tallest building in the world in the future.",
+        "i regularly or consistently goes to construction sites.",
+        "I am a demanding person that always needs to achieve high goals.",
+        "my character trait: does not give up.",
+        "my character trait: high achiever.",
+        "i went to an ivy league college in the past.",
+        "i graduated cum laude from Harvard in the past.",
+        "i intend to become CEO in the future.",
+        "i intend to own my own business in the future.",
+        "i regularly or consistently goes to work early.",
+        "i regularly or consistently works overtime."
+      ],
+      "dialogue": [
+        {
+          "persona_id": "A",
+          "text": "Oh, what a long queue! I need to arrive at the seminar in 30 minutes but there's not much hope now... you seem to be in a rush too, are you alright?"
+        },
+        {
+          "persona_id": "B",
+          "text": "Oh hi! I am OK but I'm in a bit of a rush too actually. I have a meeting in an hour and I wanted to arrive early so that I could rehearse my presentation again. I'm David by the way. What kind of seminar are you attending?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Hi David, I'm Anne. I'm attending a dermatology seminar as a practitioner in the field. Oh no, it seems like you have an important role in the meeting that you can't be missing. May I ask what you do?"
+        },
+        {
+          "persona_id": "B",
+          "text": "Nice to meet you Anne. So are you a dermatologist? Many of my friends from Harvard are doctors. I am an architect. The meeting today is to propose my new design to our client so I can't mess it up!"
+        },
+        {
+          "persona_id": "A",
+          "text": "Yes, I'm a dermatologist. Actually, I've been recently going to Harvard to teach the students...what a coincidence! I have to tell you, the students there are great with so much potential. They just have it all so I'm sure that you must be a great architect too. What kind of architecture do you design?"
+        },
+        {
+          "persona_id": "B",
+          "text": "Yes what a coincidence! Yeah at Harvard you really have to study hard to keep up with others but I actually enjoyed the challenge. You must be the type to work hard too since you are a doctor, am I correct? I specialize in tall buildings, you know, those high-rise constructions."
+        },
+        {
+          "persona_id": "A",
+          "text": "Yes, it did require a lot of effort, especially after moving on to getting a phD. It was worth it though. Building high-rise constructions from scratch must require a great deal of challenge... but I can see how you enjoy taking the risks!"
+        },
+        {
+          "persona_id": "B",
+          "text": "Oh I bet. There are many types of doctors but why did you choose dermatology if I may ask? I'm hoping to start my own architectural firm so I've been working hard to make our clients happy and hopefully they will be my client for my future firm."
+        },
+        {
+          "persona_id": "A",
+          "text": "I've always been skillful with detail works using my hands and also as I had a twin brother who had really bad skin problems, I wanted to help him. That's my story. How about you, why did you become an architect? How exciting to be able to have your own firm!"
+        },
+        {
+          "persona_id": "B",
+          "text": "That's another thing we have in common- I've always been good at detailed work and drawing. When I was a kid my dad took me to New York and I was blown away by the skyscrapers. I told myself that one day I am going to build a building that is taller than any of them. So that's my story. Your brother is lucky to have you!"
+        },
+        {
+          "persona_id": "A",
+          "text": "What an inspiring story! It seems like our childhood experience have led our ways to where we are. Hearing your story makes me wonder what life experience I can provide for my daughters. I'm a busy working mom so I can't take them out so much, but I try to at least cook for my family every day. I'm now into Gordon Ramsey's food channel. Do you happen to be interested in cooking?"
+        }
+      ],
+      "gold_reference": "How many daughters do you have? Cooking every day is hard. You have my respect! I switch back and forth between the food channel and HGTV. Gordon Ramsey is a tough cookie! He is cool. I love to eat but I'm not really into cooking. I like it when someone else cooks for me. Lol"
+    },
+    "turn_6": {
+      "persona A": [
+        "my name is anne.",
+        "i'm 38 years old.",
+        "i have 2 daughters.",
+        "i am a doctor who specializes in dermatology.",
+        "my character trait: skilled with dexterity.",
+        "i got a Ph.D. in the past.",
+        "i studied hard in the past.",
+        "i intend to cure dermatitis in the future.",
+        "i regularly or consistently attends seminars.",
+        "i regularly or consistently teaches students to become a compassionate doctor.",
+        "i am a mother that likes to cook",
+        "my character trait: likes to learn new recipes.",
+        "i took cooking lessons in the past.",
+        "i intend to teach my daughters how to cook in the future.",
+        "i intend to start a cooking club with my neighbors in the future.",
+        "i regularly or consistently looks for new recipes on the internet.",
+        "i regularly or consistently watches food channel."
+      ],
+      "persona B": [
+        "my name is david.",
+        "i'm 42 years old.",
+        "i recently bought a house.",
+        "i am an architect who likes to build tall buildings.",
+        "my character trait: good at drawing.",
+        "my character trait: creative designer.",
+        "i received an award for good design in the past.",
+        "i built a safe skyscraper in the past.",
+        "i intend to build the tallest building in the world in the future.",
+        "i regularly or consistently goes to construction sites.",
+        "I am a demanding person that always needs to achieve high goals.",
+        "my character trait: does not give up.",
+        "my character trait: high achiever.",
+        "i went to an ivy league college in the past.",
+        "i graduated cum laude from Harvard in the past.",
+        "i intend to become CEO in the future.",
+        "i intend to own my own business in the future.",
+        "i regularly or consistently goes to work early.",
+        "i regularly or consistently works overtime."
+      ],
+      "dialogue": [
+        {
+          "persona_id": "A",
+          "text": "Oh, what a long queue! I need to arrive at the seminar in 30 minutes but there's not much hope now... you seem to be in a rush too, are you alright?"
+        },
+        {
+          "persona_id": "B",
+          "text": "Oh hi! I am OK but I'm in a bit of a rush too actually. I have a meeting in an hour and I wanted to arrive early so that I could rehearse my presentation again. I'm David by the way. What kind of seminar are you attending?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Hi David, I'm Anne. I'm attending a dermatology seminar as a practitioner in the field. Oh no, it seems like you have an important role in the meeting that you can't be missing. May I ask what you do?"
+        },
+        {
+          "persona_id": "B",
+          "text": "Nice to meet you Anne. So are you a dermatologist? Many of my friends from Harvard are doctors. I am an architect. The meeting today is to propose my new design to our client so I can't mess it up!"
+        },
+        {
+          "persona_id": "A",
+          "text": "Yes, I'm a dermatologist. Actually, I've been recently going to Harvard to teach the students...what a coincidence! I have to tell you, the students there are great with so much potential. They just have it all so I'm sure that you must be a great architect too. What kind of architecture do you design?"
+        },
+        {
+          "persona_id": "B",
+          "text": "Yes what a coincidence! Yeah at Harvard you really have to study hard to keep up with others but I actually enjoyed the challenge. You must be the type to work hard too since you are a doctor, am I correct? I specialize in tall buildings, you know, those high-rise constructions."
+        },
+        {
+          "persona_id": "A",
+          "text": "Yes, it did require a lot of effort, especially after moving on to getting a phD. It was worth it though. Building high-rise constructions from scratch must require a great deal of challenge... but I can see how you enjoy taking the risks!"
+        },
+        {
+          "persona_id": "B",
+          "text": "Oh I bet. There are many types of doctors but why did you choose dermatology if I may ask? I'm hoping to start my own architectural firm so I've been working hard to make our clients happy and hopefully they will be my client for my future firm."
+        },
+        {
+          "persona_id": "A",
+          "text": "I've always been skillful with detail works using my hands and also as I had a twin brother who had really bad skin problems, I wanted to help him. That's my story. How about you, why did you become an architect? How exciting to be able to have your own firm!"
+        },
+        {
+          "persona_id": "B",
+          "text": "That's another thing we have in common- I've always been good at detailed work and drawing. When I was a kid my dad took me to New York and I was blown away by the skyscrapers. I told myself that one day I am going to build a building that is taller than any of them. So that's my story. Your brother is lucky to have you!"
+        },
+        {
+          "persona_id": "A",
+          "text": "What an inspiring story! It seems like our childhood experience have led our ways to where we are. Hearing your story makes me wonder what life experience I can provide for my daughters. I'm a busy working mom so I can't take them out so much, but I try to at least cook for my family every day. I'm now into Gordon Ramsey's food channel. Do you happen to be interested in cooking?"
+        },
+        {
+          "persona_id": "B",
+          "text": "How many daughters do you have? Cooking every day is hard. You have my respect! I switch back and forth between the food channel and HGTV. Gordon Ramsey is a tough cookie! He is cool. I love to eat but I'm not really into cooking. I like it when someone else cooks for me. Lol"
+        },
+        {
+          "persona_id": "A",
+          "text": "I have two daughters now in 1st and 2nd year in elementary school. I love cooking so I hope I can teach them some day. Yup, Gordon Ramsey is quite something! I'd love to invite you for a meal some time, if my new recipe comes out alright."
+        }
+      ],
+      "gold_reference": "I would love to join you for a meal! And in return I'll invite you to my future office at the top of the tallest building in the world!"
+    },
+    "dialog_id": "Dialog_DUMMY_0000"
+  },
+  {
+    "turn_0": {
+      "persona A": [
+        "my name is anne.",
+        "i'm 38 years old.",
+        "i have 2 daughters.",
+        "i am a doctor who specializes in dermatology.",
+        "my character trait: skilled with dexterity.",
+        "i got a Ph.D. in the past.",
+        "i studied hard in the past.",
+        "i intend to cure dermatitis in the future.",
+        "i regularly or consistently attends seminars.",
+        "i regularly or consistently teaches students to become a compassionate doctor.",
+        "i am a mother that likes to cook",
+        "my character trait: likes to learn new recipes.",
+        "i took cooking lessons in the past.",
+        "i intend to teach my daughters how to cook in the future.",
+        "i intend to start a cooking club with my neighbors in the future.",
+        "i regularly or consistently looks for new recipes on the internet.",
+        "i regularly or consistently watches food channel."
+      ],
+      "persona B": [
+        "my name is david.",
+        "i'm 42 years old.",
+        "i recently bought a house.",
+        "i am an architect who likes to build tall buildings.",
+        "my character trait: good at drawing.",
+        "my character trait: creative designer.",
+        "i received an award for good design in the past.",
+        "i built a safe skyscraper in the past.",
+        "i intend to build the tallest building in the world in the future.",
+        "i regularly or consistently goes to construction sites.",
+        "I am a demanding person that always needs to achieve high goals.",
+        "my character trait: does not give up.",
+        "my character trait: high achiever.",
+        "i went to an ivy league college in the past.",
+        "i graduated cum laude from Harvard in the past.",
+        "i intend to become CEO in the future.",
+        "i intend to own my own business in the future.",
+        "i regularly or consistently goes to work early.",
+        "i regularly or consistently works overtime."
+      ],
+      "dialogue": [
+        {
+          "persona_id": "A",
+          "text": "Hi there, I'm Anne. I'm excited to chat with you. I might have to step out a few times to help my daughters so please excuse me for that."
+        }
+      ],
+      "gold_reference": "Hello, Anne. My name is David. It's a pleasure to meet you. And please don't worry about stepping out every now and then."
+    },
+    "turn_1": {
+      "persona A": [
+        "my name is anne.",
+        "i'm 38 years old.",
+        "i have 2 daughters.",
+        "i am a doctor who specializes in dermatology.",
+        "my character trait: skilled with dexterity.",
+        "i got a Ph.D. in the past.",
+        "i studied hard in the past.",
+        "i intend to cure dermatitis in the future.",
+        "i regularly or consistently attends seminars.",
+        "i regularly or consistently teaches students to become a compassionate doctor.",
+        "i am a mother that likes to cook",
+        "my character trait: likes to learn new recipes.",
+        "i took cooking lessons in the past.",
+        "i intend to teach my daughters how to cook in the future.",
+        "i intend to start a cooking club with my neighbors in the future.",
+        "i regularly or consistently looks for new recipes on the internet.",
+        "i regularly or consistently watches food channel."
+      ],
+      "persona B": [
+        "my name is david.",
+        "i'm 42 years old.",
+        "i recently bought a house.",
+        "i am an architect who likes to build tall buildings.",
+        "my character trait: good at drawing.",
+        "my character trait: creative designer.",
+        "i received an award for good design in the past.",
+        "i built a safe skyscraper in the past.",
+        "i intend to build the tallest building in the world in the future.",
+        "i regularly or consistently goes to construction sites.",
+        "I am a demanding person that always needs to achieve high goals.",
+        "my character trait: does not give up.",
+        "my character trait: high achiever.",
+        "i went to an ivy league college in the past.",
+        "i graduated cum laude from Harvard in the past.",
+        "i intend to become CEO in the future.",
+        "i intend to own my own business in the future.",
+        "i regularly or consistently goes to work early.",
+        "i regularly or consistently works overtime."
+      ],
+      "dialogue": [
+        {
+          "persona_id": "A",
+          "text": "Hi there, I'm Anne. I'm excited to chat with you. I might have to step out a few times to help my daughters so please excuse me for that."
+        },
+        {
+          "persona_id": "B",
+          "text": "Hello, Anne. My name is David. It's a pleasure to meet you. And please don't worry about stepping out every now and then."
+        },
+        {
+          "persona_id": "A",
+          "text": "Nice meet you David, and thanks for understanding! My girls are baking an apple pie for the first time and I want to make sure they don't burn themselves! What do you do for living David?"
+        }
+      ],
+      "gold_reference": "Yes, you'd better watch them so they won't burn the whole house down! Speaking of house, I am an architect, actually."
+    },
+    "turn_2": {
+      "persona A": [
+        "my name is anne.",
+        "i'm 38 years old.",
+        "i have 2 daughters.",
+        "i am a doctor who specializes in dermatology.",
+        "my character trait: skilled with dexterity.",
+        "i got a Ph.D. in the past.",
+        "i studied hard in the past.",
+        "i intend to cure dermatitis in the future.",
+        "i regularly or consistently attends seminars.",
+        "i regularly or consistently teaches students to become a compassionate doctor.",
+        "i am a mother that likes to cook",
+        "my character trait: likes to learn new recipes.",
+        "i took cooking lessons in the past.",
+        "i intend to teach my daughters how to cook in the future.",
+        "i intend to start a cooking club with my neighbors in the future.",
+        "i regularly or consistently looks for new recipes on the internet.",
+        "i regularly or consistently watches food channel."
+      ],
+      "persona B": [
+        "my name is david.",
+        "i'm 42 years old.",
+        "i recently bought a house.",
+        "i am an architect who likes to build tall buildings.",
+        "my character trait: good at drawing.",
+        "my character trait: creative designer.",
+        "i received an award for good design in the past.",
+        "i built a safe skyscraper in the past.",
+        "i intend to build the tallest building in the world in the future.",
+        "i regularly or consistently goes to construction sites.",
+        "I am a demanding person that always needs to achieve high goals.",
+        "my character trait: does not give up.",
+        "my character trait: high achiever.",
+        "i went to an ivy league college in the past.",
+        "i graduated cum laude from Harvard in the past.",
+        "i intend to become CEO in the future.",
+        "i intend to own my own business in the future.",
+        "i regularly or consistently goes to work early.",
+        "i regularly or consistently works overtime."
+      ],
+      "dialogue": [
+        {
+          "persona_id": "A",
+          "text": "Hi there, I'm Anne. I'm excited to chat with you. I might have to step out a few times to help my daughters so please excuse me for that."
+        },
+        {
+          "persona_id": "B",
+          "text": "Hello, Anne. My name is David. It's a pleasure to meet you. And please don't worry about stepping out every now and then."
+        },
+        {
+          "persona_id": "A",
+          "text": "Nice meet you David, and thanks for understanding! My girls are baking an apple pie for the first time and I want to make sure they don't burn themselves! What do you do for living David?"
+        },
+        {
+          "persona_id": "B",
+          "text": "Yes, you'd better watch them so they won't burn the whole house down! Speaking of house, I am an architect, actually."
+        },
+        {
+          "persona_id": "A",
+          "text": "Oh nice! What exactly do you do as an architect? Do you build houses? Or buildings? Sorry but I'm not really familiar with that field."
+        }
+      ],
+      "gold_reference": "I don't get involved with the building part myself. I'm more on the creative side, designing and making blueprints for buildings - tall ones, mostly."
+    },
+    "turn_3": {
+      "persona A": [
+        "my name is anne.",
+        "i'm 38 years old.",
+        "i have 2 daughters.",
+        "i am a doctor who specializes in dermatology.",
+        "my character trait: skilled with dexterity.",
+        "i got a Ph.D. in the past.",
+        "i studied hard in the past.",
+        "i intend to cure dermatitis in the future.",
+        "i regularly or consistently attends seminars.",
+        "i regularly or consistently teaches students to become a compassionate doctor.",
+        "i am a mother that likes to cook",
+        "my character trait: likes to learn new recipes.",
+        "i took cooking lessons in the past.",
+        "i intend to teach my daughters how to cook in the future.",
+        "i intend to start a cooking club with my neighbors in the future.",
+        "i regularly or consistently looks for new recipes on the internet.",
+        "i regularly or consistently watches food channel."
+      ],
+      "persona B": [
+        "my name is david.",
+        "i'm 42 years old.",
+        "i recently bought a house.",
+        "i am an architect who likes to build tall buildings.",
+        "my character trait: good at drawing.",
+        "my character trait: creative designer.",
+        "i received an award for good design in the past.",
+        "i built a safe skyscraper in the past.",
+        "i intend to build the tallest building in the world in the future.",
+        "i regularly or consistently goes to construction sites.",
+        "I am a demanding person that always needs to achieve high goals.",
+        "my character trait: does not give up.",
+        "my character trait: high achiever.",
+        "i went to an ivy league college in the past.",
+        "i graduated cum laude from Harvard in the past.",
+        "i intend to become CEO in the future.",
+        "i intend to own my own business in the future.",
+        "i regularly or consistently goes to work early.",
+        "i regularly or consistently works overtime."
+      ],
+      "dialogue": [
+        {
+          "persona_id": "A",
+          "text": "Hi there, I'm Anne. I'm excited to chat with you. I might have to step out a few times to help my daughters so please excuse me for that."
+        },
+        {
+          "persona_id": "B",
+          "text": "Hello, Anne. My name is David. It's a pleasure to meet you. And please don't worry about stepping out every now and then."
+        },
+        {
+          "persona_id": "A",
+          "text": "Nice meet you David, and thanks for understanding! My girls are baking an apple pie for the first time and I want to make sure they don't burn themselves! What do you do for living David?"
+        },
+        {
+          "persona_id": "B",
+          "text": "Yes, you'd better watch them so they won't burn the whole house down! Speaking of house, I am an architect, actually."
+        },
+        {
+          "persona_id": "A",
+          "text": "Oh nice! What exactly do you do as an architect? Do you build houses? Or buildings? Sorry but I'm not really familiar with that field."
+        },
+        {
+          "persona_id": "B",
+          "text": "I don't get involved with the building part myself. I'm more on the creative side, designing and making blueprints for buildings - tall ones, mostly."
+        },
+        {
+          "persona_id": "A",
+          "text": "Tall ones! That sounds exciting. The clinic I work for is in a high-rise building and I love the view from my window. Have you always wanted to be an architect?"
+        }
+      ],
+      "gold_reference": "You work for a clinic. Does that mean you are a doctor? And yes, I always wanted to be an architect as far as I could remember."
+    },
+    "turn_4": {
+      "persona A": [
+        "my name is anne.",
+        "i'm 38 years old.",
+        "i have 2 daughters.",
+        "i am a doctor who specializes in dermatology.",
+        "my character trait: skilled with dexterity.",
+        "i got a Ph.D. in the past.",
+        "i studied hard in the past.",
+        "i intend to cure dermatitis in the future.",
+        "i regularly or consistently attends seminars.",
+        "i regularly or consistently teaches students to become a compassionate doctor.",
+        "i am a mother that likes to cook",
+        "my character trait: likes to learn new recipes.",
+        "i took cooking lessons in the past.",
+        "i intend to teach my daughters how to cook in the future.",
+        "i intend to start a cooking club with my neighbors in the future.",
+        "i regularly or consistently looks for new recipes on the internet.",
+        "i regularly or consistently watches food channel."
+      ],
+      "persona B": [
+        "my name is david.",
+        "i'm 42 years old.",
+        "i recently bought a house.",
+        "i am an architect who likes to build tall buildings.",
+        "my character trait: good at drawing.",
+        "my character trait: creative designer.",
+        "i received an award for good design in the past.",
+        "i built a safe skyscraper in the past.",
+        "i intend to build the tallest building in the world in the future.",
+        "i regularly or consistently goes to construction sites.",
+        "I am a demanding person that always needs to achieve high goals.",
+        "my character trait: does not give up.",
+        "my character trait: high achiever.",
+        "i went to an ivy league college in the past.",
+        "i graduated cum laude from Harvard in the past.",
+        "i intend to become CEO in the future.",
+        "i intend to own my own business in the future.",
+        "i regularly or consistently goes to work early.",
+        "i regularly or consistently works overtime."
+      ],
+      "dialogue": [
+        {
+          "persona_id": "A",
+          "text": "Hi there, I'm Anne. I'm excited to chat with you. I might have to step out a few times to help my daughters so please excuse me for that."
+        },
+        {
+          "persona_id": "B",
+          "text": "Hello, Anne. My name is David. It's a pleasure to meet you. And please don't worry about stepping out every now and then."
+        },
+        {
+          "persona_id": "A",
+          "text": "Nice meet you David, and thanks for understanding! My girls are baking an apple pie for the first time and I want to make sure they don't burn themselves! What do you do for living David?"
+        },
+        {
+          "persona_id": "B",
+          "text": "Yes, you'd better watch them so they won't burn the whole house down! Speaking of house, I am an architect, actually."
+        },
+        {
+          "persona_id": "A",
+          "text": "Oh nice! What exactly do you do as an architect? Do you build houses? Or buildings? Sorry but I'm not really familiar with that field."
+        },
+        {
+          "persona_id": "B",
+          "text": "I don't get involved with the building part myself. I'm more on the creative side, designing and making blueprints for buildings - tall ones, mostly."
+        },
+        {
+          "persona_id": "A",
+          "text": "Tall ones! That sounds exciting. The clinic I work for is in a high-rise building and I love the view from my window. Have you always wanted to be an architect?"
+        },
+        {
+          "persona_id": "B",
+          "text": "You work for a clinic. Does that mean you are a doctor? And yes, I always wanted to be an architect as far as I could remember."
+        },
+        {
+          "persona_id": "A",
+          "text": "Dream come true! That's wonderful. Do you have any other dreams now that you are an architect? Yes I am a doctor, I am a dermatologist."
+        }
+      ],
+      "gold_reference": "I know it may sound ambitious, but I'd love to design and build the tallest building in the world one day. How long have you been working as a dermatologist, Anne?"
+    },
+    "turn_5": {
+      "persona A": [
+        "my name is anne.",
+        "i'm 38 years old.",
+        "i have 2 daughters.",
+        "i am a doctor who specializes in dermatology.",
+        "my character trait: skilled with dexterity.",
+        "i got a Ph.D. in the past.",
+        "i studied hard in the past.",
+        "i intend to cure dermatitis in the future.",
+        "i regularly or consistently attends seminars.",
+        "i regularly or consistently teaches students to become a compassionate doctor.",
+        "i am a mother that likes to cook",
+        "my character trait: likes to learn new recipes.",
+        "i took cooking lessons in the past.",
+        "i intend to teach my daughters how to cook in the future.",
+        "i intend to start a cooking club with my neighbors in the future.",
+        "i regularly or consistently looks for new recipes on the internet.",
+        "i regularly or consistently watches food channel."
+      ],
+      "persona B": [
+        "my name is david.",
+        "i'm 42 years old.",
+        "i recently bought a house.",
+        "i am an architect who likes to build tall buildings.",
+        "my character trait: good at drawing.",
+        "my character trait: creative designer.",
+        "i received an award for good design in the past.",
+        "i built a safe skyscraper in the past.",
+        "i intend to build the tallest building in the world in the future.",
+        "i regularly or consistently goes to construction sites.",
+        "I am a demanding person that always needs to achieve high goals.",
+        "my character trait: does not give up.",
+        "my character trait: high achiever.",
+        "i went to an ivy league college in the past.",
+        "i graduated cum laude from Harvard in the past.",
+        "i intend to become CEO in the future.",
+        "i intend to own my own business in the future.",
+        "i regularly or consistently goes to work early.",
+        "i regularly or consistently works overtime."
+      ],
+      "dialogue": [
+        {
+          "persona_id": "A",
+          "text": "Hi there, I'm Anne. I'm excited to chat with you. I might have to step out a few times to help my daughters so please excuse me for that."
+        },
+        {
+          "persona_id": "B",
+          "text": "Hello, Anne. My name is David. It's a pleasure to meet you. And please don't worry about stepping out every now and then."
+        },
+        {
+          "persona_id": "A",
+          "text": "Nice meet you David, and thanks for understanding! My girls are baking an apple pie for the first time and I want to make sure they don't burn themselves! What do you do for living David?"
+        },
+        {
+          "persona_id": "B",
+          "text": "Yes, you'd better watch them so they won't burn the whole house down! Speaking of house, I am an architect, actually."
+        },
+        {
+          "persona_id": "A",
+          "text": "Oh nice! What exactly do you do as an architect? Do you build houses? Or buildings? Sorry but I'm not really familiar with that field."
+        },
+        {
+          "persona_id": "B",
+          "text": "I don't get involved with the building part myself. I'm more on the creative side, designing and making blueprints for buildings - tall ones, mostly."
+        },
+        {
+          "persona_id": "A",
+          "text": "Tall ones! That sounds exciting. The clinic I work for is in a high-rise building and I love the view from my window. Have you always wanted to be an architect?"
+        },
+        {
+          "persona_id": "B",
+          "text": "You work for a clinic. Does that mean you are a doctor? And yes, I always wanted to be an architect as far as I could remember."
+        },
+        {
+          "persona_id": "A",
+          "text": "Dream come true! That's wonderful. Do you have any other dreams now that you are an architect? Yes I am a doctor, I am a dermatologist."
+        },
+        {
+          "persona_id": "B",
+          "text": "I know it may sound ambitious, but I'd love to design and build the tallest building in the world one day. How long have you been working as a dermatologist, Anne?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Dream big, work hard, right? I hope your dream will come true one day. It's been almost 15 years since I became a doctor. I love what I do and I'm actually good at it. Come by my clinic if you ever need to check your skin! "
+        }
+      ],
+      "gold_reference": "Wow, 15 years! You sound like a very capable and reliable doctor. I might take you up on that offer if I ever had a skin problem. It's so fulfilling and nice to be able to make a living by doing what you like, isn't it?"
+    },
+    "turn_6": {
+      "persona A": [
+        "my name is anne.",
+        "i'm 38 years old.",
+        "i have 2 daughters.",
+        "i am a doctor who specializes in dermatology.",
+        "my character trait: skilled with dexterity.",
+        "i got a Ph.D. in the past.",
+        "i studied hard in the past.",
+        "i intend to cure dermatitis in the future.",
+        "i regularly or consistently attends seminars.",
+        "i regularly or consistently teaches students to become a compassionate doctor.",
+        "i am a mother that likes to cook",
+        "my character trait: likes to learn new recipes.",
+        "i took cooking lessons in the past.",
+        "i intend to teach my daughters how to cook in the future.",
+        "i intend to start a cooking club with my neighbors in the future.",
+        "i regularly or consistently looks for new recipes on the internet.",
+        "i regularly or consistently watches food channel."
+      ],
+      "persona B": [
+        "my name is david.",
+        "i'm 42 years old.",
+        "i recently bought a house.",
+        "i am an architect who likes to build tall buildings.",
+        "my character trait: good at drawing.",
+        "my character trait: creative designer.",
+        "i received an award for good design in the past.",
+        "i built a safe skyscraper in the past.",
+        "i intend to build the tallest building in the world in the future.",
+        "i regularly or consistently goes to construction sites.",
+        "I am a demanding person that always needs to achieve high goals.",
+        "my character trait: does not give up.",
+        "my character trait: high achiever.",
+        "i went to an ivy league college in the past.",
+        "i graduated cum laude from Harvard in the past.",
+        "i intend to become CEO in the future.",
+        "i intend to own my own business in the future.",
+        "i regularly or consistently goes to work early.",
+        "i regularly or consistently works overtime."
+      ],
+      "dialogue": [
+        {
+          "persona_id": "A",
+          "text": "Hi there, I'm Anne. I'm excited to chat with you. I might have to step out a few times to help my daughters so please excuse me for that."
+        },
+        {
+          "persona_id": "B",
+          "text": "Hello, Anne. My name is David. It's a pleasure to meet you. And please don't worry about stepping out every now and then."
+        },
+        {
+          "persona_id": "A",
+          "text": "Nice meet you David, and thanks for understanding! My girls are baking an apple pie for the first time and I want to make sure they don't burn themselves! What do you do for living David?"
+        },
+        {
+          "persona_id": "B",
+          "text": "Yes, you'd better watch them so they won't burn the whole house down! Speaking of house, I am an architect, actually."
+        },
+        {
+          "persona_id": "A",
+          "text": "Oh nice! What exactly do you do as an architect? Do you build houses? Or buildings? Sorry but I'm not really familiar with that field."
+        },
+        {
+          "persona_id": "B",
+          "text": "I don't get involved with the building part myself. I'm more on the creative side, designing and making blueprints for buildings - tall ones, mostly."
+        },
+        {
+          "persona_id": "A",
+          "text": "Tall ones! That sounds exciting. The clinic I work for is in a high-rise building and I love the view from my window. Have you always wanted to be an architect?"
+        },
+        {
+          "persona_id": "B",
+          "text": "You work for a clinic. Does that mean you are a doctor? And yes, I always wanted to be an architect as far as I could remember."
+        },
+        {
+          "persona_id": "A",
+          "text": "Dream come true! That's wonderful. Do you have any other dreams now that you are an architect? Yes I am a doctor, I am a dermatologist."
+        },
+        {
+          "persona_id": "B",
+          "text": "I know it may sound ambitious, but I'd love to design and build the tallest building in the world one day. How long have you been working as a dermatologist, Anne?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Dream big, work hard, right? I hope your dream will come true one day. It's been almost 15 years since I became a doctor. I love what I do and I'm actually good at it. Come by my clinic if you ever need to check your skin! "
+        },
+        {
+          "persona_id": "B",
+          "text": "Wow, 15 years! You sound like a very capable and reliable doctor. I might take you up on that offer if I ever had a skin problem. It's so fulfilling and nice to be able to make a living by doing what you like, isn't it?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Yes indeed. I feel really fortunate to be able to help my patients with what I do. It wasn't easy to become a doctor but it's well worth it. What do you like to do when you are not working?"
+        }
+      ],
+      "gold_reference": "I must admit that I am a bit of workaholic. I tend to work on my personal projects even on my days off. Drawing sketches and stuff, you know. I get restless when I'm not doing something to do with my work. Terrible, huh?"
+    },
+    "dialog_id": "Dialog_DUMMY_0001"
+  },
+  {
+    "turn_0": {
+      "persona A": [
+        "my name is anne.",
+        "i'm 38 years old.",
+        "i have 2 daughters.",
+        "i am a doctor who specializes in dermatology.",
+        "my character trait: skilled with dexterity.",
+        "i got a Ph.D. in the past.",
+        "i studied hard in the past.",
+        "i intend to cure dermatitis in the future.",
+        "i regularly or consistently attends seminars.",
+        "i regularly or consistently teaches students to become a compassionate doctor.",
+        "i am a mother that likes to cook",
+        "my character trait: likes to learn new recipes.",
+        "i took cooking lessons in the past.",
+        "i intend to teach my daughters how to cook in the future.",
+        "i intend to start a cooking club with my neighbors in the future.",
+        "i regularly or consistently looks for new recipes on the internet.",
+        "i regularly or consistently watches food channel."
+      ],
+      "persona B": [
+        "my name is david.",
+        "i'm 42 years old.",
+        "i recently bought a house.",
+        "i am an architect who likes to build tall buildings.",
+        "my character trait: good at drawing.",
+        "my character trait: creative designer.",
+        "i received an award for good design in the past.",
+        "i built a safe skyscraper in the past.",
+        "i intend to build the tallest building in the world in the future.",
+        "i regularly or consistently goes to construction sites.",
+        "I am a demanding person that always needs to achieve high goals.",
+        "my character trait: does not give up.",
+        "my character trait: high achiever.",
+        "i went to an ivy league college in the past.",
+        "i graduated cum laude from Harvard in the past.",
+        "i intend to become CEO in the future.",
+        "i intend to own my own business in the future.",
+        "i regularly or consistently goes to work early.",
+        "i regularly or consistently works overtime."
+      ],
+      "dialogue": [
+        {
+          "persona_id": "A",
+          "text": "Hello, anybody there? My name is Anne. I had a busy day at work and I am so ready to cook something warm and nice and just chill with my girls."
+        }
+      ],
+      "gold_reference": "Hello there Anne. I'm David and I also had a busy day and had to work overtime. Sounds like you can cook but what are you planning to make for your kids today?"
+    },
+    "turn_1": {
+      "persona A": [
+        "my name is anne.",
+        "i'm 38 years old.",
+        "i have 2 daughters.",
+        "i am a doctor who specializes in dermatology.",
+        "my character trait: skilled with dexterity.",
+        "i got a Ph.D. in the past.",
+        "i studied hard in the past.",
+        "i intend to cure dermatitis in the future.",
+        "i regularly or consistently attends seminars.",
+        "i regularly or consistently teaches students to become a compassionate doctor.",
+        "i am a mother that likes to cook",
+        "my character trait: likes to learn new recipes.",
+        "i took cooking lessons in the past.",
+        "i intend to teach my daughters how to cook in the future.",
+        "i intend to start a cooking club with my neighbors in the future.",
+        "i regularly or consistently looks for new recipes on the internet.",
+        "i regularly or consistently watches food channel."
+      ],
+      "persona B": [
+        "my name is david.",
+        "i'm 42 years old.",
+        "i recently bought a house.",
+        "i am an architect who likes to build tall buildings.",
+        "my character trait: good at drawing.",
+        "my character trait: creative designer.",
+        "i received an award for good design in the past.",
+        "i built a safe skyscraper in the past.",
+        "i intend to build the tallest building in the world in the future.",
+        "i regularly or consistently goes to construction sites.",
+        "I am a demanding person that always needs to achieve high goals.",
+        "my character trait: does not give up.",
+        "my character trait: high achiever.",
+        "i went to an ivy league college in the past.",
+        "i graduated cum laude from Harvard in the past.",
+        "i intend to become CEO in the future.",
+        "i intend to own my own business in the future.",
+        "i regularly or consistently goes to work early.",
+        "i regularly or consistently works overtime."
+      ],
+      "dialogue": [
+        {
+          "persona_id": "A",
+          "text": "Hello, anybody there? My name is Anne. I had a busy day at work and I am so ready to cook something warm and nice and just chill with my girls."
+        },
+        {
+          "persona_id": "B",
+          "text": "Hello there Anne. I'm David and I also had a busy day and had to work overtime. Sounds like you can cook but what are you planning to make for your kids today?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Nice to meet you David. I'm sorry to hear that you had to work overtime. What do you do David? Yes I enjoy cooking and I am pretty good at it. I am going to try this new recipe that I saw on the food channel the other day."
+        }
+      ],
+      "gold_reference": "Thanks, its nice meeting you too Anne. Would love to try your cooking one day! I'm an architect and love to build houses. How about you? What do you do?"
+    },
+    "turn_2": {
+      "persona A": [
+        "my name is anne.",
+        "i'm 38 years old.",
+        "i have 2 daughters.",
+        "i am a doctor who specializes in dermatology.",
+        "my character trait: skilled with dexterity.",
+        "i got a Ph.D. in the past.",
+        "i studied hard in the past.",
+        "i intend to cure dermatitis in the future.",
+        "i regularly or consistently attends seminars.",
+        "i regularly or consistently teaches students to become a compassionate doctor.",
+        "i am a mother that likes to cook",
+        "my character trait: likes to learn new recipes.",
+        "i took cooking lessons in the past.",
+        "i intend to teach my daughters how to cook in the future.",
+        "i intend to start a cooking club with my neighbors in the future.",
+        "i regularly or consistently looks for new recipes on the internet.",
+        "i regularly or consistently watches food channel."
+      ],
+      "persona B": [
+        "my name is david.",
+        "i'm 42 years old.",
+        "i recently bought a house.",
+        "i am an architect who likes to build tall buildings.",
+        "my character trait: good at drawing.",
+        "my character trait: creative designer.",
+        "i received an award for good design in the past.",
+        "i built a safe skyscraper in the past.",
+        "i intend to build the tallest building in the world in the future.",
+        "i regularly or consistently goes to construction sites.",
+        "I am a demanding person that always needs to achieve high goals.",
+        "my character trait: does not give up.",
+        "my character trait: high achiever.",
+        "i went to an ivy league college in the past.",
+        "i graduated cum laude from Harvard in the past.",
+        "i intend to become CEO in the future.",
+        "i intend to own my own business in the future.",
+        "i regularly or consistently goes to work early.",
+        "i regularly or consistently works overtime."
+      ],
+      "dialogue": [
+        {
+          "persona_id": "A",
+          "text": "Hello, anybody there? My name is Anne. I had a busy day at work and I am so ready to cook something warm and nice and just chill with my girls."
+        },
+        {
+          "persona_id": "B",
+          "text": "Hello there Anne. I'm David and I also had a busy day and had to work overtime. Sounds like you can cook but what are you planning to make for your kids today?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Nice to meet you David. I'm sorry to hear that you had to work overtime. What do you do David? Yes I enjoy cooking and I am pretty good at it. I am going to try this new recipe that I saw on the food channel the other day."
+        },
+        {
+          "persona_id": "B",
+          "text": "Thanks, its nice meeting you too Anne. Would love to try your cooking one day! I'm an architect and love to build houses. How about you? What do you do?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Oh you are an architect? What kind of deign are you specialized in? I'm a doctor. I have a small medical practice by the shopping mall but I've been thinking about relocating."
+        }
+      ],
+      "gold_reference": "I'm mostly specialized in tall building like skyscrapers. I go to constructions sites a lot so I work early everyday. Oh I see you are a doctor, huh. What do you specialize in?"
+    },
+    "turn_3": {
+      "persona A": [
+        "my name is anne.",
+        "i'm 38 years old.",
+        "i have 2 daughters.",
+        "i am a doctor who specializes in dermatology.",
+        "my character trait: skilled with dexterity.",
+        "i got a Ph.D. in the past.",
+        "i studied hard in the past.",
+        "i intend to cure dermatitis in the future.",
+        "i regularly or consistently attends seminars.",
+        "i regularly or consistently teaches students to become a compassionate doctor.",
+        "i am a mother that likes to cook",
+        "my character trait: likes to learn new recipes.",
+        "i took cooking lessons in the past.",
+        "i intend to teach my daughters how to cook in the future.",
+        "i intend to start a cooking club with my neighbors in the future.",
+        "i regularly or consistently looks for new recipes on the internet.",
+        "i regularly or consistently watches food channel."
+      ],
+      "persona B": [
+        "my name is david.",
+        "i'm 42 years old.",
+        "i recently bought a house.",
+        "i am an architect who likes to build tall buildings.",
+        "my character trait: good at drawing.",
+        "my character trait: creative designer.",
+        "i received an award for good design in the past.",
+        "i built a safe skyscraper in the past.",
+        "i intend to build the tallest building in the world in the future.",
+        "i regularly or consistently goes to construction sites.",
+        "I am a demanding person that always needs to achieve high goals.",
+        "my character trait: does not give up.",
+        "my character trait: high achiever.",
+        "i went to an ivy league college in the past.",
+        "i graduated cum laude from Harvard in the past.",
+        "i intend to become CEO in the future.",
+        "i intend to own my own business in the future.",
+        "i regularly or consistently goes to work early.",
+        "i regularly or consistently works overtime."
+      ],
+      "dialogue": [
+        {
+          "persona_id": "A",
+          "text": "Hello, anybody there? My name is Anne. I had a busy day at work and I am so ready to cook something warm and nice and just chill with my girls."
+        },
+        {
+          "persona_id": "B",
+          "text": "Hello there Anne. I'm David and I also had a busy day and had to work overtime. Sounds like you can cook but what are you planning to make for your kids today?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Nice to meet you David. I'm sorry to hear that you had to work overtime. What do you do David? Yes I enjoy cooking and I am pretty good at it. I am going to try this new recipe that I saw on the food channel the other day."
+        },
+        {
+          "persona_id": "B",
+          "text": "Thanks, its nice meeting you too Anne. Would love to try your cooking one day! I'm an architect and love to build houses. How about you? What do you do?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Oh you are an architect? What kind of deign are you specialized in? I'm a doctor. I have a small medical practice by the shopping mall but I've been thinking about relocating."
+        },
+        {
+          "persona_id": "B",
+          "text": "I'm mostly specialized in tall building like skyscrapers. I go to constructions sites a lot so I work early everyday. Oh I see you are a doctor, huh. What do you specialize in?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Wow that sounds exciting! Maybe I could open up a new clinic at one of those tall buildings! Do you happen to have any goals as an architect? I am a dermatologist. My partner and I own a clinic and I also teach a few classes at Harvard so I'm a busy mom!"
+        }
+      ],
+      "gold_reference": "Great idea, I can check with my colleague regarding on opening your clinic in one of our buildings. Hmm....my goals as an architect is to own my business one day. Do you have a lot of patients at your clinic? Owning your clinic and teaching at Harvard, sounds like you are a busy mom."
+    },
+    "turn_4": {
+      "persona A": [
+        "my name is anne.",
+        "i'm 38 years old.",
+        "i have 2 daughters.",
+        "i am a doctor who specializes in dermatology.",
+        "my character trait: skilled with dexterity.",
+        "i got a Ph.D. in the past.",
+        "i studied hard in the past.",
+        "i intend to cure dermatitis in the future.",
+        "i regularly or consistently attends seminars.",
+        "i regularly or consistently teaches students to become a compassionate doctor.",
+        "i am a mother that likes to cook",
+        "my character trait: likes to learn new recipes.",
+        "i took cooking lessons in the past.",
+        "i intend to teach my daughters how to cook in the future.",
+        "i intend to start a cooking club with my neighbors in the future.",
+        "i regularly or consistently looks for new recipes on the internet.",
+        "i regularly or consistently watches food channel."
+      ],
+      "persona B": [
+        "my name is david.",
+        "i'm 42 years old.",
+        "i recently bought a house.",
+        "i am an architect who likes to build tall buildings.",
+        "my character trait: good at drawing.",
+        "my character trait: creative designer.",
+        "i received an award for good design in the past.",
+        "i built a safe skyscraper in the past.",
+        "i intend to build the tallest building in the world in the future.",
+        "i regularly or consistently goes to construction sites.",
+        "I am a demanding person that always needs to achieve high goals.",
+        "my character trait: does not give up.",
+        "my character trait: high achiever.",
+        "i went to an ivy league college in the past.",
+        "i graduated cum laude from Harvard in the past.",
+        "i intend to become CEO in the future.",
+        "i intend to own my own business in the future.",
+        "i regularly or consistently goes to work early.",
+        "i regularly or consistently works overtime."
+      ],
+      "dialogue": [
+        {
+          "persona_id": "A",
+          "text": "Hello, anybody there? My name is Anne. I had a busy day at work and I am so ready to cook something warm and nice and just chill with my girls."
+        },
+        {
+          "persona_id": "B",
+          "text": "Hello there Anne. I'm David and I also had a busy day and had to work overtime. Sounds like you can cook but what are you planning to make for your kids today?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Nice to meet you David. I'm sorry to hear that you had to work overtime. What do you do David? Yes I enjoy cooking and I am pretty good at it. I am going to try this new recipe that I saw on the food channel the other day."
+        },
+        {
+          "persona_id": "B",
+          "text": "Thanks, its nice meeting you too Anne. Would love to try your cooking one day! I'm an architect and love to build houses. How about you? What do you do?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Oh you are an architect? What kind of deign are you specialized in? I'm a doctor. I have a small medical practice by the shopping mall but I've been thinking about relocating."
+        },
+        {
+          "persona_id": "B",
+          "text": "I'm mostly specialized in tall building like skyscrapers. I go to constructions sites a lot so I work early everyday. Oh I see you are a doctor, huh. What do you specialize in?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Wow that sounds exciting! Maybe I could open up a new clinic at one of those tall buildings! Do you happen to have any goals as an architect? I am a dermatologist. My partner and I own a clinic and I also teach a few classes at Harvard so I'm a busy mom!"
+        },
+        {
+          "persona_id": "B",
+          "text": "Great idea, I can check with my colleague regarding on opening your clinic in one of our buildings. Hmm....my goals as an architect is to own my business one day. Do you have a lot of patients at your clinic? Owning your clinic and teaching at Harvard, sounds like you are a busy mom."
+        },
+        {
+          "persona_id": "A",
+          "text": "That would be fun to move into one of your buildings! Do you think you are close to opening your own business? Our clinic is very busy. I am all about taking care of our patients and I don't mind working for long hours, but I also want to support medical students to pursue their dream of becoming a doctor."
+        }
+      ],
+      "gold_reference": "I'm working very hard now to pursue my goals so hope I can own my business soon. I bet your clients rely on you very much since I can see you are a hard working doctor. I'm a graduate from Harvard but how is like teaching medical students there?"
+    },
+    "turn_5": {
+      "persona A": [
+        "my name is anne.",
+        "i'm 38 years old.",
+        "i have 2 daughters.",
+        "i am a doctor who specializes in dermatology.",
+        "my character trait: skilled with dexterity.",
+        "i got a Ph.D. in the past.",
+        "i studied hard in the past.",
+        "i intend to cure dermatitis in the future.",
+        "i regularly or consistently attends seminars.",
+        "i regularly or consistently teaches students to become a compassionate doctor.",
+        "i am a mother that likes to cook",
+        "my character trait: likes to learn new recipes.",
+        "i took cooking lessons in the past.",
+        "i intend to teach my daughters how to cook in the future.",
+        "i intend to start a cooking club with my neighbors in the future.",
+        "i regularly or consistently looks for new recipes on the internet.",
+        "i regularly or consistently watches food channel."
+      ],
+      "persona B": [
+        "my name is david.",
+        "i'm 42 years old.",
+        "i recently bought a house.",
+        "i am an architect who likes to build tall buildings.",
+        "my character trait: good at drawing.",
+        "my character trait: creative designer.",
+        "i received an award for good design in the past.",
+        "i built a safe skyscraper in the past.",
+        "i intend to build the tallest building in the world in the future.",
+        "i regularly or consistently goes to construction sites.",
+        "I am a demanding person that always needs to achieve high goals.",
+        "my character trait: does not give up.",
+        "my character trait: high achiever.",
+        "i went to an ivy league college in the past.",
+        "i graduated cum laude from Harvard in the past.",
+        "i intend to become CEO in the future.",
+        "i intend to own my own business in the future.",
+        "i regularly or consistently goes to work early.",
+        "i regularly or consistently works overtime."
+      ],
+      "dialogue": [
+        {
+          "persona_id": "A",
+          "text": "Hello, anybody there? My name is Anne. I had a busy day at work and I am so ready to cook something warm and nice and just chill with my girls."
+        },
+        {
+          "persona_id": "B",
+          "text": "Hello there Anne. I'm David and I also had a busy day and had to work overtime. Sounds like you can cook but what are you planning to make for your kids today?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Nice to meet you David. I'm sorry to hear that you had to work overtime. What do you do David? Yes I enjoy cooking and I am pretty good at it. I am going to try this new recipe that I saw on the food channel the other day."
+        },
+        {
+          "persona_id": "B",
+          "text": "Thanks, its nice meeting you too Anne. Would love to try your cooking one day! I'm an architect and love to build houses. How about you? What do you do?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Oh you are an architect? What kind of deign are you specialized in? I'm a doctor. I have a small medical practice by the shopping mall but I've been thinking about relocating."
+        },
+        {
+          "persona_id": "B",
+          "text": "I'm mostly specialized in tall building like skyscrapers. I go to constructions sites a lot so I work early everyday. Oh I see you are a doctor, huh. What do you specialize in?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Wow that sounds exciting! Maybe I could open up a new clinic at one of those tall buildings! Do you happen to have any goals as an architect? I am a dermatologist. My partner and I own a clinic and I also teach a few classes at Harvard so I'm a busy mom!"
+        },
+        {
+          "persona_id": "B",
+          "text": "Great idea, I can check with my colleague regarding on opening your clinic in one of our buildings. Hmm....my goals as an architect is to own my business one day. Do you have a lot of patients at your clinic? Owning your clinic and teaching at Harvard, sounds like you are a busy mom."
+        },
+        {
+          "persona_id": "A",
+          "text": "That would be fun to move into one of your buildings! Do you think you are close to opening your own business? Our clinic is very busy. I am all about taking care of our patients and I don't mind working for long hours, but I also want to support medical students to pursue their dream of becoming a doctor."
+        },
+        {
+          "persona_id": "B",
+          "text": "I'm working very hard now to pursue my goals so hope I can own my business soon. I bet your clients rely on you very much since I can see you are a hard working doctor. I'm a graduate from Harvard but how is like teaching medical students there?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Oh you are a Harvard graduate? You must be very smart then! All of my students there are so smart so it is very challenging to teach them, but I believe compassion is the most important in healthcare and I am hoping to teach them that. Is there anything you like to do other than work?"
+        }
+      ],
+      "gold_reference": "Yes, I studied a lot at Harvard and was very competitive but I learned a lot through my teachers there. I bet your very compassionate in your field and your students will learn a lot from you. Besides working, I like to do go outdoors and draw landscape. How about you?"
+    },
+    "turn_6": {
+      "persona A": [
+        "my name is anne.",
+        "i'm 38 years old.",
+        "i have 2 daughters.",
+        "i am a doctor who specializes in dermatology.",
+        "my character trait: skilled with dexterity.",
+        "i got a Ph.D. in the past.",
+        "i studied hard in the past.",
+        "i intend to cure dermatitis in the future.",
+        "i regularly or consistently attends seminars.",
+        "i regularly or consistently teaches students to become a compassionate doctor.",
+        "i am a mother that likes to cook",
+        "my character trait: likes to learn new recipes.",
+        "i took cooking lessons in the past.",
+        "i intend to teach my daughters how to cook in the future.",
+        "i intend to start a cooking club with my neighbors in the future.",
+        "i regularly or consistently looks for new recipes on the internet.",
+        "i regularly or consistently watches food channel."
+      ],
+      "persona B": [
+        "my name is david.",
+        "i'm 42 years old.",
+        "i recently bought a house.",
+        "i am an architect who likes to build tall buildings.",
+        "my character trait: good at drawing.",
+        "my character trait: creative designer.",
+        "i received an award for good design in the past.",
+        "i built a safe skyscraper in the past.",
+        "i intend to build the tallest building in the world in the future.",
+        "i regularly or consistently goes to construction sites.",
+        "I am a demanding person that always needs to achieve high goals.",
+        "my character trait: does not give up.",
+        "my character trait: high achiever.",
+        "i went to an ivy league college in the past.",
+        "i graduated cum laude from Harvard in the past.",
+        "i intend to become CEO in the future.",
+        "i intend to own my own business in the future.",
+        "i regularly or consistently goes to work early.",
+        "i regularly or consistently works overtime."
+      ],
+      "dialogue": [
+        {
+          "persona_id": "A",
+          "text": "Hello, anybody there? My name is Anne. I had a busy day at work and I am so ready to cook something warm and nice and just chill with my girls."
+        },
+        {
+          "persona_id": "B",
+          "text": "Hello there Anne. I'm David and I also had a busy day and had to work overtime. Sounds like you can cook but what are you planning to make for your kids today?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Nice to meet you David. I'm sorry to hear that you had to work overtime. What do you do David? Yes I enjoy cooking and I am pretty good at it. I am going to try this new recipe that I saw on the food channel the other day."
+        },
+        {
+          "persona_id": "B",
+          "text": "Thanks, its nice meeting you too Anne. Would love to try your cooking one day! I'm an architect and love to build houses. How about you? What do you do?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Oh you are an architect? What kind of deign are you specialized in? I'm a doctor. I have a small medical practice by the shopping mall but I've been thinking about relocating."
+        },
+        {
+          "persona_id": "B",
+          "text": "I'm mostly specialized in tall building like skyscrapers. I go to constructions sites a lot so I work early everyday. Oh I see you are a doctor, huh. What do you specialize in?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Wow that sounds exciting! Maybe I could open up a new clinic at one of those tall buildings! Do you happen to have any goals as an architect? I am a dermatologist. My partner and I own a clinic and I also teach a few classes at Harvard so I'm a busy mom!"
+        },
+        {
+          "persona_id": "B",
+          "text": "Great idea, I can check with my colleague regarding on opening your clinic in one of our buildings. Hmm....my goals as an architect is to own my business one day. Do you have a lot of patients at your clinic? Owning your clinic and teaching at Harvard, sounds like you are a busy mom."
+        },
+        {
+          "persona_id": "A",
+          "text": "That would be fun to move into one of your buildings! Do you think you are close to opening your own business? Our clinic is very busy. I am all about taking care of our patients and I don't mind working for long hours, but I also want to support medical students to pursue their dream of becoming a doctor."
+        },
+        {
+          "persona_id": "B",
+          "text": "I'm working very hard now to pursue my goals so hope I can own my business soon. I bet your clients rely on you very much since I can see you are a hard working doctor. I'm a graduate from Harvard but how is like teaching medical students there?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Oh you are a Harvard graduate? You must be very smart then! All of my students there are so smart so it is very challenging to teach them, but I believe compassion is the most important in healthcare and I am hoping to teach them that. Is there anything you like to do other than work?"
+        },
+        {
+          "persona_id": "B",
+          "text": "Yes, I studied a lot at Harvard and was very competitive but I learned a lot through my teachers there. I bet your very compassionate in your field and your students will learn a lot from you. Besides working, I like to do go outdoors and draw landscape. How about you?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Thank you! I worked very hard for my doctor's degree. You also seem like the type to work hard to achieve your goals. I love to cook and I'm hoping to start up a cooking club with my neighbors. You are welcome to join if you'd like!"
+        }
+      ],
+      "gold_reference": "Thanks, sounds nice! Would love to join your cooking club! I'm not so great at it so I hope you can teach me and would like to get a taste of your cooking! I hope we can talk more when we meet then."
+    },
+    "dialog_id": "Dialog_DUMMY_0002"
+  },
+  {
+    "turn_0": {
+      "persona A": [
+        "my name is anne.",
+        "i'm 38 years old.",
+        "i have 2 daughters.",
+        "i am a doctor who specializes in dermatology.",
+        "my character trait: skilled with dexterity.",
+        "i got a Ph.D. in the past.",
+        "i studied hard in the past.",
+        "i intend to cure dermatitis in the future.",
+        "i regularly or consistently attends seminars.",
+        "i regularly or consistently teaches students to become a compassionate doctor.",
+        "i am a mother that likes to cook",
+        "my character trait: likes to learn new recipes.",
+        "i took cooking lessons in the past.",
+        "i intend to teach my daughters how to cook in the future.",
+        "i intend to start a cooking club with my neighbors in the future.",
+        "i regularly or consistently looks for new recipes on the internet.",
+        "i regularly or consistently watches food channel."
+      ],
+      "persona B": [
+        "my name is david.",
+        "i'm 42 years old.",
+        "i recently bought a house.",
+        "i am an architect who likes to build tall buildings.",
+        "my character trait: good at drawing.",
+        "my character trait: creative designer.",
+        "i received an award for good design in the past.",
+        "i built a safe skyscraper in the past.",
+        "i intend to build the tallest building in the world in the future.",
+        "i regularly or consistently goes to construction sites.",
+        "I am a demanding person that always needs to achieve high goals.",
+        "my character trait: does not give up.",
+        "my character trait: high achiever.",
+        "i went to an ivy league college in the past.",
+        "i graduated cum laude from Harvard in the past.",
+        "i intend to become CEO in the future.",
+        "i intend to own my own business in the future.",
+        "i regularly or consistently goes to work early.",
+        "i regularly or consistently works overtime."
+      ],
+      "dialogue": [
+        {
+          "persona_id": "A",
+          "text": "Hi, I'm Anne. I'm a doctor. What's your name?"
+        }
+      ],
+      "gold_reference": "Hello Anne, it's very nice to meet you. I'm David. Oh, you're a doctor? What do you specialize in?"
+    },
+    "turn_1": {
+      "persona A": [
+        "my name is anne.",
+        "i'm 38 years old.",
+        "i have 2 daughters.",
+        "i am a doctor who specializes in dermatology.",
+        "my character trait: skilled with dexterity.",
+        "i got a Ph.D. in the past.",
+        "i studied hard in the past.",
+        "i intend to cure dermatitis in the future.",
+        "i regularly or consistently attends seminars.",
+        "i regularly or consistently teaches students to become a compassionate doctor.",
+        "i am a mother that likes to cook",
+        "my character trait: likes to learn new recipes.",
+        "i took cooking lessons in the past.",
+        "i intend to teach my daughters how to cook in the future.",
+        "i intend to start a cooking club with my neighbors in the future.",
+        "i regularly or consistently looks for new recipes on the internet.",
+        "i regularly or consistently watches food channel."
+      ],
+      "persona B": [
+        "my name is david.",
+        "i'm 42 years old.",
+        "i recently bought a house.",
+        "i am an architect who likes to build tall buildings.",
+        "my character trait: good at drawing.",
+        "my character trait: creative designer.",
+        "i received an award for good design in the past.",
+        "i built a safe skyscraper in the past.",
+        "i intend to build the tallest building in the world in the future.",
+        "i regularly or consistently goes to construction sites.",
+        "I am a demanding person that always needs to achieve high goals.",
+        "my character trait: does not give up.",
+        "my character trait: high achiever.",
+        "i went to an ivy league college in the past.",
+        "i graduated cum laude from Harvard in the past.",
+        "i intend to become CEO in the future.",
+        "i intend to own my own business in the future.",
+        "i regularly or consistently goes to work early.",
+        "i regularly or consistently works overtime."
+      ],
+      "dialogue": [
+        {
+          "persona_id": "A",
+          "text": "Hi, I'm Anne. I'm a doctor. What's your name?"
+        },
+        {
+          "persona_id": "B",
+          "text": "Hello Anne, it's very nice to meet you. I'm David. Oh, you're a doctor? What do you specialize in?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Nice to meet you too, David. I'm a dermatologist. What do you do for a living?"
+        }
+      ],
+      "gold_reference": "Oh that's great to know. Actually I've been having skin rashes and wanted to be treated. I get them when I have little sleep. I'm an architect and have been extremely busy recently."
+    },
+    "turn_2": {
+      "persona A": [
+        "my name is anne.",
+        "i'm 38 years old.",
+        "i have 2 daughters.",
+        "i am a doctor who specializes in dermatology.",
+        "my character trait: skilled with dexterity.",
+        "i got a Ph.D. in the past.",
+        "i studied hard in the past.",
+        "i intend to cure dermatitis in the future.",
+        "i regularly or consistently attends seminars.",
+        "i regularly or consistently teaches students to become a compassionate doctor.",
+        "i am a mother that likes to cook",
+        "my character trait: likes to learn new recipes.",
+        "i took cooking lessons in the past.",
+        "i intend to teach my daughters how to cook in the future.",
+        "i intend to start a cooking club with my neighbors in the future.",
+        "i regularly or consistently looks for new recipes on the internet.",
+        "i regularly or consistently watches food channel."
+      ],
+      "persona B": [
+        "my name is david.",
+        "i'm 42 years old.",
+        "i recently bought a house.",
+        "i am an architect who likes to build tall buildings.",
+        "my character trait: good at drawing.",
+        "my character trait: creative designer.",
+        "i received an award for good design in the past.",
+        "i built a safe skyscraper in the past.",
+        "i intend to build the tallest building in the world in the future.",
+        "i regularly or consistently goes to construction sites.",
+        "I am a demanding person that always needs to achieve high goals.",
+        "my character trait: does not give up.",
+        "my character trait: high achiever.",
+        "i went to an ivy league college in the past.",
+        "i graduated cum laude from Harvard in the past.",
+        "i intend to become CEO in the future.",
+        "i intend to own my own business in the future.",
+        "i regularly or consistently goes to work early.",
+        "i regularly or consistently works overtime."
+      ],
+      "dialogue": [
+        {
+          "persona_id": "A",
+          "text": "Hi, I'm Anne. I'm a doctor. What's your name?"
+        },
+        {
+          "persona_id": "B",
+          "text": "Hello Anne, it's very nice to meet you. I'm David. Oh, you're a doctor? What do you specialize in?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Nice to meet you too, David. I'm a dermatologist. What do you do for a living?"
+        },
+        {
+          "persona_id": "B",
+          "text": "Oh that's great to know. Actually I've been having skin rashes and wanted to be treated. I get them when I have little sleep. I'm an architect and have been extremely busy recently."
+        },
+        {
+          "persona_id": "A",
+          "text": "Wow, an architect! That does sound demanding. I specialize in dermatitis. I want to cure it some day. A lot of times skin rashes can be caused by stress or fatigue. With your line of work, it could probably be both. You should definitely go see a doctor before it gets worse. What kind of architecture do you specialize in? Do you build houses?"
+        }
+      ],
+      "gold_reference": "You're so right, and I chose the job because of the challenges! I've been focusing on high buildings recently, hoping to some day have my own design firm and create the tallest building in the world. I'm imagining being a doctor is a tough job too. How do you cope with stress?"
+    },
+    "turn_3": {
+      "persona A": [
+        "my name is anne.",
+        "i'm 38 years old.",
+        "i have 2 daughters.",
+        "i am a doctor who specializes in dermatology.",
+        "my character trait: skilled with dexterity.",
+        "i got a Ph.D. in the past.",
+        "i studied hard in the past.",
+        "i intend to cure dermatitis in the future.",
+        "i regularly or consistently attends seminars.",
+        "i regularly or consistently teaches students to become a compassionate doctor.",
+        "i am a mother that likes to cook",
+        "my character trait: likes to learn new recipes.",
+        "i took cooking lessons in the past.",
+        "i intend to teach my daughters how to cook in the future.",
+        "i intend to start a cooking club with my neighbors in the future.",
+        "i regularly or consistently looks for new recipes on the internet.",
+        "i regularly or consistently watches food channel."
+      ],
+      "persona B": [
+        "my name is david.",
+        "i'm 42 years old.",
+        "i recently bought a house.",
+        "i am an architect who likes to build tall buildings.",
+        "my character trait: good at drawing.",
+        "my character trait: creative designer.",
+        "i received an award for good design in the past.",
+        "i built a safe skyscraper in the past.",
+        "i intend to build the tallest building in the world in the future.",
+        "i regularly or consistently goes to construction sites.",
+        "I am a demanding person that always needs to achieve high goals.",
+        "my character trait: does not give up.",
+        "my character trait: high achiever.",
+        "i went to an ivy league college in the past.",
+        "i graduated cum laude from Harvard in the past.",
+        "i intend to become CEO in the future.",
+        "i intend to own my own business in the future.",
+        "i regularly or consistently goes to work early.",
+        "i regularly or consistently works overtime."
+      ],
+      "dialogue": [
+        {
+          "persona_id": "A",
+          "text": "Hi, I'm Anne. I'm a doctor. What's your name?"
+        },
+        {
+          "persona_id": "B",
+          "text": "Hello Anne, it's very nice to meet you. I'm David. Oh, you're a doctor? What do you specialize in?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Nice to meet you too, David. I'm a dermatologist. What do you do for a living?"
+        },
+        {
+          "persona_id": "B",
+          "text": "Oh that's great to know. Actually I've been having skin rashes and wanted to be treated. I get them when I have little sleep. I'm an architect and have been extremely busy recently."
+        },
+        {
+          "persona_id": "A",
+          "text": "Wow, an architect! That does sound demanding. I specialize in dermatitis. I want to cure it some day. A lot of times skin rashes can be caused by stress or fatigue. With your line of work, it could probably be both. You should definitely go see a doctor before it gets worse. What kind of architecture do you specialize in? Do you build houses?"
+        },
+        {
+          "persona_id": "B",
+          "text": "You're so right, and I chose the job because of the challenges! I've been focusing on high buildings recently, hoping to some day have my own design firm and create the tallest building in the world. I'm imagining being a doctor is a tough job too. How do you cope with stress?"
+        },
+        {
+          "persona_id": "A",
+          "text": "My hobby is cooking. I love to learn new recipes and try them out. It's my way of relieving some of the stress from work. I want to start a cooking club with my neighbors. Do you have a hobby?"
+        }
+      ],
+      "gold_reference": "It's nice that you have a creative hobby, not to mention, what you make is essential for life! Work has been my hobby ever since I decided to become an architect while going to Harvard. But I do enjoy drawing, which I think is quite meditative."
+    },
+    "turn_4": {
+      "persona A": [
+        "my name is anne.",
+        "i'm 38 years old.",
+        "i have 2 daughters.",
+        "i am a doctor who specializes in dermatology.",
+        "my character trait: skilled with dexterity.",
+        "i got a Ph.D. in the past.",
+        "i studied hard in the past.",
+        "i intend to cure dermatitis in the future.",
+        "i regularly or consistently attends seminars.",
+        "i regularly or consistently teaches students to become a compassionate doctor.",
+        "i am a mother that likes to cook",
+        "my character trait: likes to learn new recipes.",
+        "i took cooking lessons in the past.",
+        "i intend to teach my daughters how to cook in the future.",
+        "i intend to start a cooking club with my neighbors in the future.",
+        "i regularly or consistently looks for new recipes on the internet.",
+        "i regularly or consistently watches food channel."
+      ],
+      "persona B": [
+        "my name is david.",
+        "i'm 42 years old.",
+        "i recently bought a house.",
+        "i am an architect who likes to build tall buildings.",
+        "my character trait: good at drawing.",
+        "my character trait: creative designer.",
+        "i received an award for good design in the past.",
+        "i built a safe skyscraper in the past.",
+        "i intend to build the tallest building in the world in the future.",
+        "i regularly or consistently goes to construction sites.",
+        "I am a demanding person that always needs to achieve high goals.",
+        "my character trait: does not give up.",
+        "my character trait: high achiever.",
+        "i went to an ivy league college in the past.",
+        "i graduated cum laude from Harvard in the past.",
+        "i intend to become CEO in the future.",
+        "i intend to own my own business in the future.",
+        "i regularly or consistently goes to work early.",
+        "i regularly or consistently works overtime."
+      ],
+      "dialogue": [
+        {
+          "persona_id": "A",
+          "text": "Hi, I'm Anne. I'm a doctor. What's your name?"
+        },
+        {
+          "persona_id": "B",
+          "text": "Hello Anne, it's very nice to meet you. I'm David. Oh, you're a doctor? What do you specialize in?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Nice to meet you too, David. I'm a dermatologist. What do you do for a living?"
+        },
+        {
+          "persona_id": "B",
+          "text": "Oh that's great to know. Actually I've been having skin rashes and wanted to be treated. I get them when I have little sleep. I'm an architect and have been extremely busy recently."
+        },
+        {
+          "persona_id": "A",
+          "text": "Wow, an architect! That does sound demanding. I specialize in dermatitis. I want to cure it some day. A lot of times skin rashes can be caused by stress or fatigue. With your line of work, it could probably be both. You should definitely go see a doctor before it gets worse. What kind of architecture do you specialize in? Do you build houses?"
+        },
+        {
+          "persona_id": "B",
+          "text": "You're so right, and I chose the job because of the challenges! I've been focusing on high buildings recently, hoping to some day have my own design firm and create the tallest building in the world. I'm imagining being a doctor is a tough job too. How do you cope with stress?"
+        },
+        {
+          "persona_id": "A",
+          "text": "My hobby is cooking. I love to learn new recipes and try them out. It's my way of relieving some of the stress from work. I want to start a cooking club with my neighbors. Do you have a hobby?"
+        },
+        {
+          "persona_id": "B",
+          "text": "It's nice that you have a creative hobby, not to mention, what you make is essential for life! Work has been my hobby ever since I decided to become an architect while going to Harvard. But I do enjoy drawing, which I think is quite meditative."
+        },
+        {
+          "persona_id": "A",
+          "text": "You went to Harvard! You're the first person that I ever spoke to that went to Harvard! You must have been under a lot of pressure while you were attending school. You're probably used to pressure and demands right? Maybe too used to it that it has become the norm for you. You should draw more often to take your mind off of things. It may help with your rash. My daughters help to take my mind off of work also. Being a mother of 2, I am kind of forced to forget work when I come home. Do you have children?"
+        }
+      ],
+      "gold_reference": "Thanks for being so understanding. I guess it's just my nature wanting to become an achiever and keep my goals set high always. I got a good design award last year, which I'm quite proud of, but I should be more demanding! It must be difficult to keep a good work-life balance, but your family's presence must be a big emotional support for you, which I really envy - and I think you guessed right, I'm single. Can I ask what your career goal is?"
+    },
+    "turn_5": {
+      "persona A": [
+        "my name is anne.",
+        "i'm 38 years old.",
+        "i have 2 daughters.",
+        "i am a doctor who specializes in dermatology.",
+        "my character trait: skilled with dexterity.",
+        "i got a Ph.D. in the past.",
+        "i studied hard in the past.",
+        "i intend to cure dermatitis in the future.",
+        "i regularly or consistently attends seminars.",
+        "i regularly or consistently teaches students to become a compassionate doctor.",
+        "i am a mother that likes to cook",
+        "my character trait: likes to learn new recipes.",
+        "i took cooking lessons in the past.",
+        "i intend to teach my daughters how to cook in the future.",
+        "i intend to start a cooking club with my neighbors in the future.",
+        "i regularly or consistently looks for new recipes on the internet.",
+        "i regularly or consistently watches food channel."
+      ],
+      "persona B": [
+        "my name is david.",
+        "i'm 42 years old.",
+        "i recently bought a house.",
+        "i am an architect who likes to build tall buildings.",
+        "my character trait: good at drawing.",
+        "my character trait: creative designer.",
+        "i received an award for good design in the past.",
+        "i built a safe skyscraper in the past.",
+        "i intend to build the tallest building in the world in the future.",
+        "i regularly or consistently goes to construction sites.",
+        "I am a demanding person that always needs to achieve high goals.",
+        "my character trait: does not give up.",
+        "my character trait: high achiever.",
+        "i went to an ivy league college in the past.",
+        "i graduated cum laude from Harvard in the past.",
+        "i intend to become CEO in the future.",
+        "i intend to own my own business in the future.",
+        "i regularly or consistently goes to work early.",
+        "i regularly or consistently works overtime."
+      ],
+      "dialogue": [
+        {
+          "persona_id": "A",
+          "text": "Hi, I'm Anne. I'm a doctor. What's your name?"
+        },
+        {
+          "persona_id": "B",
+          "text": "Hello Anne, it's very nice to meet you. I'm David. Oh, you're a doctor? What do you specialize in?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Nice to meet you too, David. I'm a dermatologist. What do you do for a living?"
+        },
+        {
+          "persona_id": "B",
+          "text": "Oh that's great to know. Actually I've been having skin rashes and wanted to be treated. I get them when I have little sleep. I'm an architect and have been extremely busy recently."
+        },
+        {
+          "persona_id": "A",
+          "text": "Wow, an architect! That does sound demanding. I specialize in dermatitis. I want to cure it some day. A lot of times skin rashes can be caused by stress or fatigue. With your line of work, it could probably be both. You should definitely go see a doctor before it gets worse. What kind of architecture do you specialize in? Do you build houses?"
+        },
+        {
+          "persona_id": "B",
+          "text": "You're so right, and I chose the job because of the challenges! I've been focusing on high buildings recently, hoping to some day have my own design firm and create the tallest building in the world. I'm imagining being a doctor is a tough job too. How do you cope with stress?"
+        },
+        {
+          "persona_id": "A",
+          "text": "My hobby is cooking. I love to learn new recipes and try them out. It's my way of relieving some of the stress from work. I want to start a cooking club with my neighbors. Do you have a hobby?"
+        },
+        {
+          "persona_id": "B",
+          "text": "It's nice that you have a creative hobby, not to mention, what you make is essential for life! Work has been my hobby ever since I decided to become an architect while going to Harvard. But I do enjoy drawing, which I think is quite meditative."
+        },
+        {
+          "persona_id": "A",
+          "text": "You went to Harvard! You're the first person that I ever spoke to that went to Harvard! You must have been under a lot of pressure while you were attending school. You're probably used to pressure and demands right? Maybe too used to it that it has become the norm for you. You should draw more often to take your mind off of things. It may help with your rash. My daughters help to take my mind off of work also. Being a mother of 2, I am kind of forced to forget work when I come home. Do you have children?"
+        },
+        {
+          "persona_id": "B",
+          "text": "Thanks for being so understanding. I guess it's just my nature wanting to become an achiever and keep my goals set high always. I got a good design award last year, which I'm quite proud of, but I should be more demanding! It must be difficult to keep a good work-life balance, but your family's presence must be a big emotional support for you, which I really envy - and I think you guessed right, I'm single. Can I ask what your career goal is?"
+        },
+        {
+          "persona_id": "A",
+          "text": "I want to cure a type of dermatitis called eczema. It is a condition where the skin gets itchy. Many people, even babies and children, suffer from it. You mentioned that you want to build the tallest building in the world. I'd love to hear more about that."
+        }
+      ],
+      "gold_reference": "I really respect you for what you are doing and I am sure you will be able to find the cure. It sounds like it will make a great change for many people's lives. I hope to have the right mindset like you. I used to focus mainly on the attractiveness of the design at first, but after hearing about the tragic earthquakes in Japan it made me consider deeply about safety issues more."
+    },
+    "turn_6": {
+      "persona A": [
+        "my name is anne.",
+        "i'm 38 years old.",
+        "i have 2 daughters.",
+        "i am a doctor who specializes in dermatology.",
+        "my character trait: skilled with dexterity.",
+        "i got a Ph.D. in the past.",
+        "i studied hard in the past.",
+        "i intend to cure dermatitis in the future.",
+        "i regularly or consistently attends seminars.",
+        "i regularly or consistently teaches students to become a compassionate doctor.",
+        "i am a mother that likes to cook",
+        "my character trait: likes to learn new recipes.",
+        "i took cooking lessons in the past.",
+        "i intend to teach my daughters how to cook in the future.",
+        "i intend to start a cooking club with my neighbors in the future.",
+        "i regularly or consistently looks for new recipes on the internet.",
+        "i regularly or consistently watches food channel."
+      ],
+      "persona B": [
+        "my name is david.",
+        "i'm 42 years old.",
+        "i recently bought a house.",
+        "i am an architect who likes to build tall buildings.",
+        "my character trait: good at drawing.",
+        "my character trait: creative designer.",
+        "i received an award for good design in the past.",
+        "i built a safe skyscraper in the past.",
+        "i intend to build the tallest building in the world in the future.",
+        "i regularly or consistently goes to construction sites.",
+        "I am a demanding person that always needs to achieve high goals.",
+        "my character trait: does not give up.",
+        "my character trait: high achiever.",
+        "i went to an ivy league college in the past.",
+        "i graduated cum laude from Harvard in the past.",
+        "i intend to become CEO in the future.",
+        "i intend to own my own business in the future.",
+        "i regularly or consistently goes to work early.",
+        "i regularly or consistently works overtime."
+      ],
+      "dialogue": [
+        {
+          "persona_id": "A",
+          "text": "Hi, I'm Anne. I'm a doctor. What's your name?"
+        },
+        {
+          "persona_id": "B",
+          "text": "Hello Anne, it's very nice to meet you. I'm David. Oh, you're a doctor? What do you specialize in?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Nice to meet you too, David. I'm a dermatologist. What do you do for a living?"
+        },
+        {
+          "persona_id": "B",
+          "text": "Oh that's great to know. Actually I've been having skin rashes and wanted to be treated. I get them when I have little sleep. I'm an architect and have been extremely busy recently."
+        },
+        {
+          "persona_id": "A",
+          "text": "Wow, an architect! That does sound demanding. I specialize in dermatitis. I want to cure it some day. A lot of times skin rashes can be caused by stress or fatigue. With your line of work, it could probably be both. You should definitely go see a doctor before it gets worse. What kind of architecture do you specialize in? Do you build houses?"
+        },
+        {
+          "persona_id": "B",
+          "text": "You're so right, and I chose the job because of the challenges! I've been focusing on high buildings recently, hoping to some day have my own design firm and create the tallest building in the world. I'm imagining being a doctor is a tough job too. How do you cope with stress?"
+        },
+        {
+          "persona_id": "A",
+          "text": "My hobby is cooking. I love to learn new recipes and try them out. It's my way of relieving some of the stress from work. I want to start a cooking club with my neighbors. Do you have a hobby?"
+        },
+        {
+          "persona_id": "B",
+          "text": "It's nice that you have a creative hobby, not to mention, what you make is essential for life! Work has been my hobby ever since I decided to become an architect while going to Harvard. But I do enjoy drawing, which I think is quite meditative."
+        },
+        {
+          "persona_id": "A",
+          "text": "You went to Harvard! You're the first person that I ever spoke to that went to Harvard! You must have been under a lot of pressure while you were attending school. You're probably used to pressure and demands right? Maybe too used to it that it has become the norm for you. You should draw more often to take your mind off of things. It may help with your rash. My daughters help to take my mind off of work also. Being a mother of 2, I am kind of forced to forget work when I come home. Do you have children?"
+        },
+        {
+          "persona_id": "B",
+          "text": "Thanks for being so understanding. I guess it's just my nature wanting to become an achiever and keep my goals set high always. I got a good design award last year, which I'm quite proud of, but I should be more demanding! It must be difficult to keep a good work-life balance, but your family's presence must be a big emotional support for you, which I really envy - and I think you guessed right, I'm single. Can I ask what your career goal is?"
+        },
+        {
+          "persona_id": "A",
+          "text": "I want to cure a type of dermatitis called eczema. It is a condition where the skin gets itchy. Many people, even babies and children, suffer from it. You mentioned that you want to build the tallest building in the world. I'd love to hear more about that."
+        },
+        {
+          "persona_id": "B",
+          "text": "I really respect you for what you are doing and I am sure you will be able to find the cure. It sounds like it will make a great change for many people's lives. I hope to have the right mindset like you. I used to focus mainly on the attractiveness of the design at first, but after hearing about the tragic earthquakes in Japan it made me consider deeply about safety issues more."
+        },
+        {
+          "persona_id": "A",
+          "text": "Yeah the earthquake was terrifying. I'm still afraid of tall buildings. I hope you will meet someone special that you would want to share your life with. A family to support and be supported by is truly wonderful."
+        }
+      ],
+      "gold_reference": "I understand how that had affected a lot of people in many ways. And yes, I hope to find a partner and build a loving family like yours. I'm having a feeling this may be more challenging than my job! Anyways, it was very nice talking with you, thank you!"
+    },
+    "dialog_id": "Dialog_DUMMY_0003"
+  },
+  {
+    "turn_0": {
+      "persona A": [
+        "my name is anne.",
+        "i'm 38 years old.",
+        "i have 2 daughters.",
+        "i am a doctor who specializes in dermatology.",
+        "my character trait: skilled with dexterity.",
+        "i got a Ph.D. in the past.",
+        "i studied hard in the past.",
+        "i intend to cure dermatitis in the future.",
+        "i regularly or consistently attends seminars.",
+        "i regularly or consistently teaches students to become a compassionate doctor.",
+        "i am a mother that likes to cook",
+        "my character trait: likes to learn new recipes.",
+        "i took cooking lessons in the past.",
+        "i intend to teach my daughters how to cook in the future.",
+        "i intend to start a cooking club with my neighbors in the future.",
+        "i regularly or consistently looks for new recipes on the internet.",
+        "i regularly or consistently watches food channel."
+      ],
+      "persona B": [
+        "my name is david.",
+        "i'm 42 years old.",
+        "i recently bought a house.",
+        "i am an architect who likes to build tall buildings.",
+        "my character trait: good at drawing.",
+        "my character trait: creative designer.",
+        "i received an award for good design in the past.",
+        "i built a safe skyscraper in the past.",
+        "i intend to build the tallest building in the world in the future.",
+        "i regularly or consistently goes to construction sites.",
+        "I am a demanding person that always needs to achieve high goals.",
+        "my character trait: does not give up.",
+        "my character trait: high achiever.",
+        "i went to an ivy league college in the past.",
+        "i graduated cum laude from Harvard in the past.",
+        "i intend to become CEO in the future.",
+        "i intend to own my own business in the future.",
+        "i regularly or consistently goes to work early.",
+        "i regularly or consistently works overtime."
+      ],
+      "dialogue": [
+        {
+          "persona_id": "A",
+          "text": "Hi, I'm Anne. Nice to meet you. I just finished making brownies with my daughters. How was your day been?"
+        }
+      ],
+      "gold_reference": "It's very nice to meet you, Anne. I'm David. It's been a long busy day in office, preparing for a presentation for my clients. Brownie is just what I need now!"
+    },
+    "turn_1": {
+      "persona A": [
+        "my name is anne.",
+        "i'm 38 years old.",
+        "i have 2 daughters.",
+        "i am a doctor who specializes in dermatology.",
+        "my character trait: skilled with dexterity.",
+        "i got a Ph.D. in the past.",
+        "i studied hard in the past.",
+        "i intend to cure dermatitis in the future.",
+        "i regularly or consistently attends seminars.",
+        "i regularly or consistently teaches students to become a compassionate doctor.",
+        "i am a mother that likes to cook",
+        "my character trait: likes to learn new recipes.",
+        "i took cooking lessons in the past.",
+        "i intend to teach my daughters how to cook in the future.",
+        "i intend to start a cooking club with my neighbors in the future.",
+        "i regularly or consistently looks for new recipes on the internet.",
+        "i regularly or consistently watches food channel."
+      ],
+      "persona B": [
+        "my name is david.",
+        "i'm 42 years old.",
+        "i recently bought a house.",
+        "i am an architect who likes to build tall buildings.",
+        "my character trait: good at drawing.",
+        "my character trait: creative designer.",
+        "i received an award for good design in the past.",
+        "i built a safe skyscraper in the past.",
+        "i intend to build the tallest building in the world in the future.",
+        "i regularly or consistently goes to construction sites.",
+        "I am a demanding person that always needs to achieve high goals.",
+        "my character trait: does not give up.",
+        "my character trait: high achiever.",
+        "i went to an ivy league college in the past.",
+        "i graduated cum laude from Harvard in the past.",
+        "i intend to become CEO in the future.",
+        "i intend to own my own business in the future.",
+        "i regularly or consistently goes to work early.",
+        "i regularly or consistently works overtime."
+      ],
+      "dialogue": [
+        {
+          "persona_id": "A",
+          "text": "Hi, I'm Anne. Nice to meet you. I just finished making brownies with my daughters. How was your day been?"
+        },
+        {
+          "persona_id": "B",
+          "text": "It's very nice to meet you, Anne. I'm David. It's been a long busy day in office, preparing for a presentation for my clients. Brownie is just what I need now!"
+        },
+        {
+          "persona_id": "A",
+          "text": "What kind of presentation did you do? What do you do for a living? I don't know anyone that doesn't love brownies! I've always loved to cook but cooking for the family everyday has become a bit of a burden so I'm trying to get my daughters to help me cook. So I'm starting by getting them to make something that they love!"
+        }
+      ],
+      "gold_reference": "I'm an architect and it was a presentation for building a skyscraper. I wanted to especially convince my clients how safety would be essential. You sound like a very good mother, and creative too! I like how you solved your burden issue! How old are your daughters?"
+    },
+    "turn_2": {
+      "persona A": [
+        "my name is anne.",
+        "i'm 38 years old.",
+        "i have 2 daughters.",
+        "i am a doctor who specializes in dermatology.",
+        "my character trait: skilled with dexterity.",
+        "i got a Ph.D. in the past.",
+        "i studied hard in the past.",
+        "i intend to cure dermatitis in the future.",
+        "i regularly or consistently attends seminars.",
+        "i regularly or consistently teaches students to become a compassionate doctor.",
+        "i am a mother that likes to cook",
+        "my character trait: likes to learn new recipes.",
+        "i took cooking lessons in the past.",
+        "i intend to teach my daughters how to cook in the future.",
+        "i intend to start a cooking club with my neighbors in the future.",
+        "i regularly or consistently looks for new recipes on the internet.",
+        "i regularly or consistently watches food channel."
+      ],
+      "persona B": [
+        "my name is david.",
+        "i'm 42 years old.",
+        "i recently bought a house.",
+        "i am an architect who likes to build tall buildings.",
+        "my character trait: good at drawing.",
+        "my character trait: creative designer.",
+        "i received an award for good design in the past.",
+        "i built a safe skyscraper in the past.",
+        "i intend to build the tallest building in the world in the future.",
+        "i regularly or consistently goes to construction sites.",
+        "I am a demanding person that always needs to achieve high goals.",
+        "my character trait: does not give up.",
+        "my character trait: high achiever.",
+        "i went to an ivy league college in the past.",
+        "i graduated cum laude from Harvard in the past.",
+        "i intend to become CEO in the future.",
+        "i intend to own my own business in the future.",
+        "i regularly or consistently goes to work early.",
+        "i regularly or consistently works overtime."
+      ],
+      "dialogue": [
+        {
+          "persona_id": "A",
+          "text": "Hi, I'm Anne. Nice to meet you. I just finished making brownies with my daughters. How was your day been?"
+        },
+        {
+          "persona_id": "B",
+          "text": "It's very nice to meet you, Anne. I'm David. It's been a long busy day in office, preparing for a presentation for my clients. Brownie is just what I need now!"
+        },
+        {
+          "persona_id": "A",
+          "text": "What kind of presentation did you do? What do you do for a living? I don't know anyone that doesn't love brownies! I've always loved to cook but cooking for the family everyday has become a bit of a burden so I'm trying to get my daughters to help me cook. So I'm starting by getting them to make something that they love!"
+        },
+        {
+          "persona_id": "B",
+          "text": "I'm an architect and it was a presentation for building a skyscraper. I wanted to especially convince my clients how safety would be essential. You sound like a very good mother, and creative too! I like how you solved your burden issue! How old are your daughters?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Wow, I cannot imagine how you design those skyscrapers. That is an amazing job. My daughters are 10 and 12, I thought it might be best to start before they become teenagers who wants nothing to do with their mother. I love watching the food channel and searching for new recipes, but I just don't have enough time with my job."
+        }
+      ],
+      "gold_reference": "Thanks. I wish I had a non-work time to spend with important people in my life like you, but I promised myself to put work first until I achieve my long term goal. I don't have time for a hobby but I do enjoy eating! So you're a working mom! What do you do, if I may ask?"
+    },
+    "turn_3": {
+      "persona A": [
+        "my name is anne.",
+        "i'm 38 years old.",
+        "i have 2 daughters.",
+        "i am a doctor who specializes in dermatology.",
+        "my character trait: skilled with dexterity.",
+        "i got a Ph.D. in the past.",
+        "i studied hard in the past.",
+        "i intend to cure dermatitis in the future.",
+        "i regularly or consistently attends seminars.",
+        "i regularly or consistently teaches students to become a compassionate doctor.",
+        "i am a mother that likes to cook",
+        "my character trait: likes to learn new recipes.",
+        "i took cooking lessons in the past.",
+        "i intend to teach my daughters how to cook in the future.",
+        "i intend to start a cooking club with my neighbors in the future.",
+        "i regularly or consistently looks for new recipes on the internet.",
+        "i regularly or consistently watches food channel."
+      ],
+      "persona B": [
+        "my name is david.",
+        "i'm 42 years old.",
+        "i recently bought a house.",
+        "i am an architect who likes to build tall buildings.",
+        "my character trait: good at drawing.",
+        "my character trait: creative designer.",
+        "i received an award for good design in the past.",
+        "i built a safe skyscraper in the past.",
+        "i intend to build the tallest building in the world in the future.",
+        "i regularly or consistently goes to construction sites.",
+        "I am a demanding person that always needs to achieve high goals.",
+        "my character trait: does not give up.",
+        "my character trait: high achiever.",
+        "i went to an ivy league college in the past.",
+        "i graduated cum laude from Harvard in the past.",
+        "i intend to become CEO in the future.",
+        "i intend to own my own business in the future.",
+        "i regularly or consistently goes to work early.",
+        "i regularly or consistently works overtime."
+      ],
+      "dialogue": [
+        {
+          "persona_id": "A",
+          "text": "Hi, I'm Anne. Nice to meet you. I just finished making brownies with my daughters. How was your day been?"
+        },
+        {
+          "persona_id": "B",
+          "text": "It's very nice to meet you, Anne. I'm David. It's been a long busy day in office, preparing for a presentation for my clients. Brownie is just what I need now!"
+        },
+        {
+          "persona_id": "A",
+          "text": "What kind of presentation did you do? What do you do for a living? I don't know anyone that doesn't love brownies! I've always loved to cook but cooking for the family everyday has become a bit of a burden so I'm trying to get my daughters to help me cook. So I'm starting by getting them to make something that they love!"
+        },
+        {
+          "persona_id": "B",
+          "text": "I'm an architect and it was a presentation for building a skyscraper. I wanted to especially convince my clients how safety would be essential. You sound like a very good mother, and creative too! I like how you solved your burden issue! How old are your daughters?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Wow, I cannot imagine how you design those skyscrapers. That is an amazing job. My daughters are 10 and 12, I thought it might be best to start before they become teenagers who wants nothing to do with their mother. I love watching the food channel and searching for new recipes, but I just don't have enough time with my job."
+        },
+        {
+          "persona_id": "B",
+          "text": "Thanks. I wish I had a non-work time to spend with important people in my life like you, but I promised myself to put work first until I achieve my long term goal. I don't have time for a hobby but I do enjoy eating! So you're a working mom! What do you do, if I may ask?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Sure, ask me anything. I'm a dermatologist. Other than my cooking, I also take seminars to learn more about the skin. I have a dream to someday find a cure for dermatitis!"
+        }
+      ],
+      "gold_reference": "How inspiring! I really envy working moms like you who have a good work-life balance, and is also so ambitious! I'd like to invite you and your family to the skyscraper's opening ceremony next weekend. It's the tallest building that I've built in my career."
+    },
+    "turn_4": {
+      "persona A": [
+        "my name is anne.",
+        "i'm 38 years old.",
+        "i have 2 daughters.",
+        "i am a doctor who specializes in dermatology.",
+        "my character trait: skilled with dexterity.",
+        "i got a Ph.D. in the past.",
+        "i studied hard in the past.",
+        "i intend to cure dermatitis in the future.",
+        "i regularly or consistently attends seminars.",
+        "i regularly or consistently teaches students to become a compassionate doctor.",
+        "i am a mother that likes to cook",
+        "my character trait: likes to learn new recipes.",
+        "i took cooking lessons in the past.",
+        "i intend to teach my daughters how to cook in the future.",
+        "i intend to start a cooking club with my neighbors in the future.",
+        "i regularly or consistently looks for new recipes on the internet.",
+        "i regularly or consistently watches food channel."
+      ],
+      "persona B": [
+        "my name is david.",
+        "i'm 42 years old.",
+        "i recently bought a house.",
+        "i am an architect who likes to build tall buildings.",
+        "my character trait: good at drawing.",
+        "my character trait: creative designer.",
+        "i received an award for good design in the past.",
+        "i built a safe skyscraper in the past.",
+        "i intend to build the tallest building in the world in the future.",
+        "i regularly or consistently goes to construction sites.",
+        "I am a demanding person that always needs to achieve high goals.",
+        "my character trait: does not give up.",
+        "my character trait: high achiever.",
+        "i went to an ivy league college in the past.",
+        "i graduated cum laude from Harvard in the past.",
+        "i intend to become CEO in the future.",
+        "i intend to own my own business in the future.",
+        "i regularly or consistently goes to work early.",
+        "i regularly or consistently works overtime."
+      ],
+      "dialogue": [
+        {
+          "persona_id": "A",
+          "text": "Hi, I'm Anne. Nice to meet you. I just finished making brownies with my daughters. How was your day been?"
+        },
+        {
+          "persona_id": "B",
+          "text": "It's very nice to meet you, Anne. I'm David. It's been a long busy day in office, preparing for a presentation for my clients. Brownie is just what I need now!"
+        },
+        {
+          "persona_id": "A",
+          "text": "What kind of presentation did you do? What do you do for a living? I don't know anyone that doesn't love brownies! I've always loved to cook but cooking for the family everyday has become a bit of a burden so I'm trying to get my daughters to help me cook. So I'm starting by getting them to make something that they love!"
+        },
+        {
+          "persona_id": "B",
+          "text": "I'm an architect and it was a presentation for building a skyscraper. I wanted to especially convince my clients how safety would be essential. You sound like a very good mother, and creative too! I like how you solved your burden issue! How old are your daughters?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Wow, I cannot imagine how you design those skyscrapers. That is an amazing job. My daughters are 10 and 12, I thought it might be best to start before they become teenagers who wants nothing to do with their mother. I love watching the food channel and searching for new recipes, but I just don't have enough time with my job."
+        },
+        {
+          "persona_id": "B",
+          "text": "Thanks. I wish I had a non-work time to spend with important people in my life like you, but I promised myself to put work first until I achieve my long term goal. I don't have time for a hobby but I do enjoy eating! So you're a working mom! What do you do, if I may ask?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Sure, ask me anything. I'm a dermatologist. Other than my cooking, I also take seminars to learn more about the skin. I have a dream to someday find a cure for dermatitis!"
+        },
+        {
+          "persona_id": "B",
+          "text": "How inspiring! I really envy working moms like you who have a good work-life balance, and is also so ambitious! I'd like to invite you and your family to the skyscraper's opening ceremony next weekend. It's the tallest building that I've built in my career."
+        },
+        {
+          "persona_id": "A",
+          "text": "Talk about inspiring! I would love to go to the opening ceremony! Am I talking to a real famous architect? Life can get pretty dull at times with so much to do at home. I rarely have time for myself, I wish I could just sit on the couch, do nothing but eat ice cream and watch the food channel. I love searching for new recipes."
+        }
+      ],
+      "gold_reference": "Thanks, I like to consider myself as an achiever. I was awarded a good design award last year, but it's just the beginning. I want to start a new design firm and eventually make the highest building in the world. You sure deserve a couch-potato time for yourself! Trying out any new recipes tonight?"
+    },
+    "turn_5": {
+      "persona A": [
+        "my name is anne.",
+        "i'm 38 years old.",
+        "i have 2 daughters.",
+        "i am a doctor who specializes in dermatology.",
+        "my character trait: skilled with dexterity.",
+        "i got a Ph.D. in the past.",
+        "i studied hard in the past.",
+        "i intend to cure dermatitis in the future.",
+        "i regularly or consistently attends seminars.",
+        "i regularly or consistently teaches students to become a compassionate doctor.",
+        "i am a mother that likes to cook",
+        "my character trait: likes to learn new recipes.",
+        "i took cooking lessons in the past.",
+        "i intend to teach my daughters how to cook in the future.",
+        "i intend to start a cooking club with my neighbors in the future.",
+        "i regularly or consistently looks for new recipes on the internet.",
+        "i regularly or consistently watches food channel."
+      ],
+      "persona B": [
+        "my name is david.",
+        "i'm 42 years old.",
+        "i recently bought a house.",
+        "i am an architect who likes to build tall buildings.",
+        "my character trait: good at drawing.",
+        "my character trait: creative designer.",
+        "i received an award for good design in the past.",
+        "i built a safe skyscraper in the past.",
+        "i intend to build the tallest building in the world in the future.",
+        "i regularly or consistently goes to construction sites.",
+        "I am a demanding person that always needs to achieve high goals.",
+        "my character trait: does not give up.",
+        "my character trait: high achiever.",
+        "i went to an ivy league college in the past.",
+        "i graduated cum laude from Harvard in the past.",
+        "i intend to become CEO in the future.",
+        "i intend to own my own business in the future.",
+        "i regularly or consistently goes to work early.",
+        "i regularly or consistently works overtime."
+      ],
+      "dialogue": [
+        {
+          "persona_id": "A",
+          "text": "Hi, I'm Anne. Nice to meet you. I just finished making brownies with my daughters. How was your day been?"
+        },
+        {
+          "persona_id": "B",
+          "text": "It's very nice to meet you, Anne. I'm David. It's been a long busy day in office, preparing for a presentation for my clients. Brownie is just what I need now!"
+        },
+        {
+          "persona_id": "A",
+          "text": "What kind of presentation did you do? What do you do for a living? I don't know anyone that doesn't love brownies! I've always loved to cook but cooking for the family everyday has become a bit of a burden so I'm trying to get my daughters to help me cook. So I'm starting by getting them to make something that they love!"
+        },
+        {
+          "persona_id": "B",
+          "text": "I'm an architect and it was a presentation for building a skyscraper. I wanted to especially convince my clients how safety would be essential. You sound like a very good mother, and creative too! I like how you solved your burden issue! How old are your daughters?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Wow, I cannot imagine how you design those skyscrapers. That is an amazing job. My daughters are 10 and 12, I thought it might be best to start before they become teenagers who wants nothing to do with their mother. I love watching the food channel and searching for new recipes, but I just don't have enough time with my job."
+        },
+        {
+          "persona_id": "B",
+          "text": "Thanks. I wish I had a non-work time to spend with important people in my life like you, but I promised myself to put work first until I achieve my long term goal. I don't have time for a hobby but I do enjoy eating! So you're a working mom! What do you do, if I may ask?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Sure, ask me anything. I'm a dermatologist. Other than my cooking, I also take seminars to learn more about the skin. I have a dream to someday find a cure for dermatitis!"
+        },
+        {
+          "persona_id": "B",
+          "text": "How inspiring! I really envy working moms like you who have a good work-life balance, and is also so ambitious! I'd like to invite you and your family to the skyscraper's opening ceremony next weekend. It's the tallest building that I've built in my career."
+        },
+        {
+          "persona_id": "A",
+          "text": "Talk about inspiring! I would love to go to the opening ceremony! Am I talking to a real famous architect? Life can get pretty dull at times with so much to do at home. I rarely have time for myself, I wish I could just sit on the couch, do nothing but eat ice cream and watch the food channel. I love searching for new recipes."
+        },
+        {
+          "persona_id": "B",
+          "text": "Thanks, I like to consider myself as an achiever. I was awarded a good design award last year, but it's just the beginning. I want to start a new design firm and eventually make the highest building in the world. You sure deserve a couch-potato time for yourself! Trying out any new recipes tonight?"
+        },
+        {
+          "persona_id": "A",
+          "text": "You sure sound like an achiever! Congrats on your award for good design, I would love to see it someday. Yeah, I found a new recipe I want to try, I'm trying to make a collection of recipes that are easy to make but are really delicious! I'm thinking about starting a cooking club with my neighbors right now. I'm used to teaching some of my students about being a doctor, I think I can use some of my teaching skills to teach my daughters and my neighbors how to cook!"
+        }
+      ],
+      "gold_reference": "Thanks. I can imagine you becoming a great teacher for cooking too! Do you have any plans on doing cooking lessons online? I'd love to join your club with my team members, as we have a kitchen in our office on the 70th floor."
+    },
+    "turn_6": {
+      "persona A": [
+        "my name is anne.",
+        "i'm 38 years old.",
+        "i have 2 daughters.",
+        "i am a doctor who specializes in dermatology.",
+        "my character trait: skilled with dexterity.",
+        "i got a Ph.D. in the past.",
+        "i studied hard in the past.",
+        "i intend to cure dermatitis in the future.",
+        "i regularly or consistently attends seminars.",
+        "i regularly or consistently teaches students to become a compassionate doctor.",
+        "i am a mother that likes to cook",
+        "my character trait: likes to learn new recipes.",
+        "i took cooking lessons in the past.",
+        "i intend to teach my daughters how to cook in the future.",
+        "i intend to start a cooking club with my neighbors in the future.",
+        "i regularly or consistently looks for new recipes on the internet.",
+        "i regularly or consistently watches food channel."
+      ],
+      "persona B": [
+        "my name is david.",
+        "i'm 42 years old.",
+        "i recently bought a house.",
+        "i am an architect who likes to build tall buildings.",
+        "my character trait: good at drawing.",
+        "my character trait: creative designer.",
+        "i received an award for good design in the past.",
+        "i built a safe skyscraper in the past.",
+        "i intend to build the tallest building in the world in the future.",
+        "i regularly or consistently goes to construction sites.",
+        "I am a demanding person that always needs to achieve high goals.",
+        "my character trait: does not give up.",
+        "my character trait: high achiever.",
+        "i went to an ivy league college in the past.",
+        "i graduated cum laude from Harvard in the past.",
+        "i intend to become CEO in the future.",
+        "i intend to own my own business in the future.",
+        "i regularly or consistently goes to work early.",
+        "i regularly or consistently works overtime."
+      ],
+      "dialogue": [
+        {
+          "persona_id": "A",
+          "text": "Hi, I'm Anne. Nice to meet you. I just finished making brownies with my daughters. How was your day been?"
+        },
+        {
+          "persona_id": "B",
+          "text": "It's very nice to meet you, Anne. I'm David. It's been a long busy day in office, preparing for a presentation for my clients. Brownie is just what I need now!"
+        },
+        {
+          "persona_id": "A",
+          "text": "What kind of presentation did you do? What do you do for a living? I don't know anyone that doesn't love brownies! I've always loved to cook but cooking for the family everyday has become a bit of a burden so I'm trying to get my daughters to help me cook. So I'm starting by getting them to make something that they love!"
+        },
+        {
+          "persona_id": "B",
+          "text": "I'm an architect and it was a presentation for building a skyscraper. I wanted to especially convince my clients how safety would be essential. You sound like a very good mother, and creative too! I like how you solved your burden issue! How old are your daughters?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Wow, I cannot imagine how you design those skyscrapers. That is an amazing job. My daughters are 10 and 12, I thought it might be best to start before they become teenagers who wants nothing to do with their mother. I love watching the food channel and searching for new recipes, but I just don't have enough time with my job."
+        },
+        {
+          "persona_id": "B",
+          "text": "Thanks. I wish I had a non-work time to spend with important people in my life like you, but I promised myself to put work first until I achieve my long term goal. I don't have time for a hobby but I do enjoy eating! So you're a working mom! What do you do, if I may ask?"
+        },
+        {
+          "persona_id": "A",
+          "text": "Sure, ask me anything. I'm a dermatologist. Other than my cooking, I also take seminars to learn more about the skin. I have a dream to someday find a cure for dermatitis!"
+        },
+        {
+          "persona_id": "B",
+          "text": "How inspiring! I really envy working moms like you who have a good work-life balance, and is also so ambitious! I'd like to invite you and your family to the skyscraper's opening ceremony next weekend. It's the tallest building that I've built in my career."
+        },
+        {
+          "persona_id": "A",
+          "text": "Talk about inspiring! I would love to go to the opening ceremony! Am I talking to a real famous architect? Life can get pretty dull at times with so much to do at home. I rarely have time for myself, I wish I could just sit on the couch, do nothing but eat ice cream and watch the food channel. I love searching for new recipes."
+        },
+        {
+          "persona_id": "B",
+          "text": "Thanks, I like to consider myself as an achiever. I was awarded a good design award last year, but it's just the beginning. I want to start a new design firm and eventually make the highest building in the world. You sure deserve a couch-potato time for yourself! Trying out any new recipes tonight?"
+        },
+        {
+          "persona_id": "A",
+          "text": "You sure sound like an achiever! Congrats on your award for good design, I would love to see it someday. Yeah, I found a new recipe I want to try, I'm trying to make a collection of recipes that are easy to make but are really delicious! I'm thinking about starting a cooking club with my neighbors right now. I'm used to teaching some of my students about being a doctor, I think I can use some of my teaching skills to teach my daughters and my neighbors how to cook!"
+        },
+        {
+          "persona_id": "B",
+          "text": "Thanks. I can imagine you becoming a great teacher for cooking too! Do you have any plans on doing cooking lessons online? I'd love to join your club with my team members, as we have a kitchen in our office on the 70th floor."
+        },
+        {
+          "persona_id": "A",
+          "text": "The 70th floor! I didn't know buildings can be that tall! I'm kind of afraid of heights, I would hate to work in an office that high lol! I'll think about doing lessons online too once I get my cooking club going. It was great talking to you!"
+        }
+      ],
+      "gold_reference": "I understand how the heights can get you, but I hope you can enjoy the scenic view from the observation deck when you come visit next weekend. It's phenomenal! It was a pleasure talking with you too, thanks!"
+    },
+    "dialog_id": "Dialog_DUMMY_0004"
+  }
+]

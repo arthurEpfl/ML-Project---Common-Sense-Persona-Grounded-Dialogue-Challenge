@@ -1,0 +1,9 @@
+{
+    "challenge_id": "task-1-commonsense-dialogue-response-generation",
+    "authors": [
+      "aicrowd-bot"
+    ],
+    "gpu": true,
+    "description": "(optional) description about your awesome agent"
+}
+  
